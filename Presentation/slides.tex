@@ -1,0 +1,363 @@
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[aspectratio=1610, 9pt]{beamer}
+
+% Load packages you need here
+\usepackage{polyglossia}
+\setmainlanguage{english}
+
+\usepackage{csquotes}
+    
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage[
+  locale=UK,
+  separate-uncertainty=true,
+  per-mode=symbol-or-fraction,
+]{siunitx}
+\usepackage[
+  backend=biber,   % use modern biber backend
+  autolang=hyphen, % load hyphenation rules for if language of bibentry is not
+  % german, has to be loaded with \setotherlanguages
+  % in the references.bib use langid={en} for english sources
+  sorting=none,
+  ]{biblatex}
+  \addbibresource{references.bib}  % the bib file to use
+  \DefineBibliographyStrings{english}{andothers = {{et\,al\adddot}}}  % replace u.a. with et al.
+  
+  
+% load the theme after all packages
+\usetheme[
+  showtotalframes, % show total number of frames in the footline
+]{tudo}
+
+% Put settings here, like
+\unimathsetup{
+  math-style=ISO,
+  bold-style=ISO,
+  nabla=upright,
+  partial=upright,
+  mathrm=sym,
+}
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\title{Spintronic emitters in the Terahertz Regime}
+\subtitle{Applied optical spectroscopy}
+\author[M.~Koch]{Max Koch}
+\institute[]{TU Dortmund \\  Fakultät Physik}
+%\titlegraphic{\includegraphics[width=0.3\textwidth, angle=90]{images/setup.jpeg}}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Intro}
+
+\begin{frame}{The THz Gap}
+  \subsection{The spectrum}
+  \begin{center}
+    \begin{figure}
+      \includegraphics[width=0.7\textwidth]{images/spectrum.png}
+      \caption{\textcolor{tugreen}{The electromagntic spectrum} from G. P. Williams, Rep. Prog. Phys, \textbf{69} (2005)\nocite{spectrum_pic}.}
+    \end{figure}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}{Terahertz}
+  \subsection{Applications for THz}
+  \begin{center}
+    \begin{minipage}[c]{0.5\linewidth}
+      So why do we need terahertz radiation?
+      \vspace{0.2in}
+      \begin{itemize}
+        \item medicine \nocite{THzgap_applications}
+        \vspace{0.1in}
+        \item security \nocite{thz_explosive_detec}
+        \vspace{0.1in}
+        \item data transmission \& saving \nocite{communication,datasaving}
+        \vspace{0.1in}
+        \item physics \nocite{wiki_book}
+      \end{itemize}
+    \end{minipage}
+\end{center}
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Setup}
+
+\begin{frame}{But how to generate THz?}
+  \includegraphics[width=\textwidth]{images/Aufbau.pdf}
+\end{frame}
+
+\section{Theory}
+\subsection{Optical-rectification}
+\begin{frame}{Optical-rectification}
+ Polarisation \nocite{wiki_book}
+  \begin{align}
+    \frac{P}{\epsilon_0} =& \chi_1E + \chi_2 E^2 + \chi_3 E^3 + ... \\
+    \frac{P_\text{nl}}{\epsilon_0} =& \chi_2 \frac{E_0^2}{2} \left[ \cos((\omega_\text{i} - \omega_\text{j})t) + \cos((\omega_\text{i} + \omega_\text{j})t) \right ]
+  \end{align}
+  Energy conservation \nocite{boyd2020nonlinear}
+  \begin{columns}
+    \begin{column}{.4\textwidth}
+      \begin{itemize}
+        \item two photons go in
+        \item higher energy level
+        \item two photon emission 
+        \item energy drops to groundstate
+      \end{itemize}
+    \end{column}
+    \begin{column}{.5\textwidth}
+      \includegraphics[width=\textwidth]{images/diffrence_frequency_mixing.PNG}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\subsection{Electro-optic sampling}
+
+\begin{frame}[t]{Electro-optic sampling (EOS)}
+\begin{columns}
+  \begin{column}{.5\textwidth}
+  And how to detect it?\\
+  \vspace{0.3in}
+  $\rightarrow$\textbf{Pockels effect!}\nocite{THZ_eltric_field}
+  \vspace{0.1in}
+    \begin{equation}
+      \frac{\symup{\Delta}I}{I} = \text{sin}(\theta) = \frac{2\pi}{\lambda} n_0^3 l r E_\text{THz}
+    \end{equation}
+  \end{column}
+  \begin{column}{.5\textwidth}
+    \vspace{0.3in}
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.8\textwidth]{images/detectionunit.png}
+    \end{figure}
+  \end{column}
+\end{columns}
+\end{frame}
+
+\section{Results}
+\subsection{ZnTe}
+\begin{frame}{EOS ZnTe}
+\begin{figure}
+  \includegraphics[width=0.8\textwidth]{images/2_11_30_20normalX.pdf}
+  \caption{\textcolor{tugreen}{EOS} of ZnTe with $\SI{135.0}{\milli\W}$.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Spectrum ZnTe with FFT}
+  \begin{columns}
+    \begin{column}{.5\textwidth}
+  \begin{figure}
+    \includegraphics[width=\textwidth]{images/2_11_30_20normalFX.pdf}
+    \caption{\textcolor{tugreen}{Spectrum} of ZnTe with $\SI{135.0}{\milli\W}$.}
+  \end{figure}
+  \end{column}
+  \begin{column}{.5\textwidth}
+    \begin{figure}
+      \includegraphics[width=\textwidth]{images/2_11_30_20normallog(FX).pdf}
+      \caption{\textcolor{tugreen}{Spectrum} of ZnTe with $\SI{135.0}{\milli\W}$ with log y-axis.}
+    \end{figure}    
+  \end{column}
+  \end{columns}
+\end{frame}
+
+\subsection{GaP}
+\begin{frame}{EOS GaP}
+  \begin{figure}
+    \includegraphics[width=0.8\textwidth]{images/GaP14_55_42normalX.pdf}
+    \caption{\textcolor{tugreen}{EOS} of GaP with $\SI{124.2}{\milli\W}$.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Spectrum GaP with FFT}
+  \begin{columns}
+    \begin{column}{.5\textwidth}
+  \begin{figure}
+    \includegraphics[width=\textwidth]{images/GaP14_55_42normalFX.pdf}
+    \caption{\textcolor{tugreen}{Spectrum} of GaP with $\SI{124.2}{\milli\W}$.}
+  \end{figure}
+  \end{column}
+  \begin{column}{.5\textwidth}
+    \begin{figure}
+      \includegraphics[width=\textwidth]{images/GaP14_55_42normallog(FX).pdf}
+      \caption{\textcolor{tugreen}{Spectrum} of GaP with $\SI{124.2}{\milli\W}$ with log y-axis.}
+    \end{figure}    
+  \end{column}
+  \end{columns}
+\end{frame}
+
+\subsection{Comparison}
+
+\begin{frame}{Comparison Spectra}
+  \begin{columns}
+    \begin{column}{.5\textwidth}
+      \begin{center}
+        \begin{figure}
+          \includegraphics[width=\textwidth]{images/2_11_30_20normalFX.pdf}
+          \caption{\textcolor{tugreen}{Spectrum} of ZnTe with $\SI{135.0}{\milli\W}$ pump power.}
+        \end{figure}
+      \end{center}
+  \end{column}
+  \begin{column}{.5\textwidth}
+    \begin{center}
+      \begin{figure}
+        \includegraphics[width=\textwidth]{images/GaP14_55_42normalFX.pdf}
+        \caption{\textcolor{tugreen}{Spectrum} of GaP with $\SI{124.2}{\milli\W }$ pump power.}
+      \end{figure}  
+    \end{center}  
+  \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Filter}
+  Switch filter for different pump powers:
+  \begin{center}
+  \begin{figure}
+    \begin{overprint}
+      \onslide<1>\includegraphics[width=\textwidth]{images/Aufbau.pdf}
+      \onslide<2>\includegraphics[width=\textwidth]{images/Aufbau_blue_square.pdf}
+    \end{overprint}
+  \end{figure}  
+\end{center}
+\end{frame}
+
+\begin{frame}{Electric field}
+  \begin{equation}
+    \frac{\symup{\Delta}I}{I} = \text{sin}(\theta) = \frac{2\pi}{\lambda} n_0^3 l r E_\text{THz}
+  \end{equation}
+  \begin{columns}
+    \begin{column}{.5\textwidth}
+      \begin{center}
+      \begin{figure}
+        \centering
+        \begin{overprint}
+          \onslide<1>\includegraphics[width=\textwidth]{images/2_11_30_20normalX.pdf}\caption{\textcolor{tugreen}{EOS signal} of ZnTe with $\SI{135.0}{\milli\W}$ pump power.}
+          \onslide<2>\includegraphics[width=0.75\textwidth]{images/eltric_field_ZnTe.pdf}\caption{\textcolor{tugreen}{Peak electric fields} of ZnTe with different pump powers.}
+        \end{overprint}
+      \end{figure}
+    \end{center}
+  \end{column}
+  \begin{column}{.5\textwidth}
+    \begin{center}
+    \begin{figure}
+      \centering
+      \begin{overprint}
+        \onslide<1>\includegraphics[width=\textwidth]{images/GaP14_55_42normalX.pdf}\caption{\textcolor{tugreen}{EOS signal} of GaP with $\SI{124.2}{\milli\W }$.}
+        \onslide<2>\includegraphics[width=0.75\textwidth]{images/eltric_field_GaP.pdf}\caption{\textcolor{tugreen}{Peak electric fields} of GaP with different pump powers.}
+      \end{overprint}
+    \end{figure}
+  \end{center}
+  \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{THz Power}
+ \nocite{griffiths}
+  \begin{align}
+    I_\text{THz} =& c \epsilon_0 E_\text{THz}^2 \\
+    P =& \int\, I_\text{THz} \,\symup{d}A_\text{spot} \approx I_\text{THz}\cdot A_\text{spot}
+\end{align}
+  \begin{columns}
+    \begin{column}{.5\textwidth}
+  \begin{figure}
+    \includegraphics[width=\textwidth]{images/Powerznte.pdf}
+    \caption{ZnTe \textcolor{tugreen}{peak electric field powers} and \textcolor{tugreen}{conversion effiency} for different pump powers.}
+  \end{figure}
+  \end{column}
+  \begin{column}{.5\textwidth}
+    \begin{figure}
+      \includegraphics[width=\textwidth]{images/Powergap.pdf}
+      \caption{GaP \textcolor{tugreen}{peak electric field powers} and \textcolor{tugreen}{conversion effiency} for different pump powers.}
+    \end{figure}    
+  \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Conclusion}
+  \begin{center}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \textbf{ZnTe reached}\\
+      \only<1->{electric field strengths $\SI{9.59}{\kilo\V\per\centi\meter}$\\}
+      \only<3->{conversion effiencies $\SI{2.08e-5}{}$}
+    \end{column}
+    \begin{column}{.5\textwidth}
+      \textbf{GaP reached}\\
+      \only<2->{electric field strengths $\SI{3.38}{\kilo\V\per\centi\meter}$\\}
+      \only<4>{conversion effiencies of $\SI{2.71e-6}{}$}
+    \end{column}
+  \end{columns}
+  \vspace{0.2in}
+  \begin{itemize}
+  \item recommend further use of ZnTe as easy to use broadband THz-source
+  \item GaP seems to be not suited for the generation of THz radation with a $\SI{800}{\nano\meter}$ Laser
+  \item Further measurments with more comparable crystal size are recommend
+  \end{itemize}
+  \end{center}
+\end{frame}
+
+\section*{Thank you}
+\begin{frame}{}
+  \begin{center}
+  \textbf{\textcolor{tugreen}{Thank you all for your attention!}}
+  \end{center}
+\end{frame}
+
+\section{References }
+\printbibliography
+
+\begin{frame}{Lower/Higher initial Power}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{images/Aufbau_vor.pdf}
+    \caption{The beam path before it reaches the shown setup.}
+  \end{figure}
+\end{frame} 
+
+\begin{frame}{Coherence-length}
+Defined as \nocite{coherence_legnth}
+\begin{equation}
+    l(\omega_{\text{THz}}) = \frac{\pi c}{\omega_{\text{THz}} \left | n_\text{opt eff}(\omega_0) - n_{\text{THz}}(\omega_{\text{THz}})\right |}
+\end{equation}
+with 
+\begin{equation}
+    n_{\text{opt eff}} = n_\text{opt}(\omega) - \lambda_\text{opt}\frac{\partial n_\text{opt}}{\partial \lambda}\biggl{|}_{\lambda_\text{opt}}  
+\end{equation}
+\begin{center}
+  \begin{columns}
+    \begin{column}{.4\textwidth}
+    \begin{figure}
+      \includegraphics[width=0.9\textwidth]{images/coherence_length_ZnTe.png}
+      \caption{\tiny{\textcolor{tugreen}{(ZnTe) With $\SI{800}{\nano\meter}$ pump laser} from  A. Nahata and A. S. Weling, A wideband coherent terahertz spectroscopy system using optical rectification and electro-optic sampling, Appl. Phys. Lett., \textbf{69}, (2014)\nocite{coherence_legnth}.}}
+    \end{figure}%
+    \end{column}
+    \begin{column}{.4\textwidth}
+    \begin{figure}
+      \includegraphics[width=0.8\textwidth]{images/GAP_coherencelength.png}
+      \caption{\tiny{\textcolor{tugreen}{(GaP) With various pump laser wavelengths} from L. Jiang and L. Chai, Efficient terahertz wave generation from GaP crystals pumped by chirp-controlled pulses from femtosecond photonic crystal fiber amplifier,  Appl. Phys. Lett. \textbf{104}, (2014)\nocite{GaP_coherence_length}.}}
+    \end{figure}
+    \end{column}
+  \end{columns}
+\end{center} 
+\end{frame}
+
+\begin{frame}{Other GaP measurments}
+  \begin{figure}
+    \includegraphics[width=0.8\textwidth]{images/GaP14_20_20normalX.pdf}
+    \caption{\textcolor{tugreen}{EOS} of GaP with $\SI{24.2}{\milli\W}$ pump power.}
+  \end{figure}
+\end{frame}
+
+
+\end{document}
+

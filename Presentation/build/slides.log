@@ -1,0 +1,2064 @@
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.11)  13 JAN 2023 16:10
+ restricted system commands enabled.
+**slides.tex
+(./slides.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/max_pc/.local/texlive/2022/te
+xmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "/home/max_pc/.local/texlive/2022/texmf-dist/tex/luatex/luaotfload/fo
+ntloader-2022-02-24.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.119
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/max_pc/.local/texlive/2022/te
+xmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-02-24>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.s
+ty (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count183
+)
+\beamer@tempbox=\box50
+\beamer@tempcount=\count184
+\c@beamerpauses=\count185
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasedecode.
+sty
+\beamer@slideinframe=\count186
+\beamer@minimum=\count187
+\beamer@decode@box=\box51
+)
+\beamer@commentbox=\box52
+\beamer@modecount=\count188
+) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen137
+\footheight=\dimen138
+\sidebarheight=\dimen139
+\beamer@tempdim=\dimen140
+\beamer@finalheight=\dimen141
+\beamer@animht=\dimen142
+\beamer@animdp=\dimen143
+\beamer@animwd=\dimen144
+\beamer@leftmargin=\dimen145
+\beamer@rightmargin=\dimen146
+\beamer@leftsidebar=\dimen147
+\beamer@rightsidebar=\dimen148
+\beamer@boxsize=\dimen149
+\beamer@vboxoffset=\dimen150
+\beamer@descdefault=\dimen151
+\beamer@descriptionwidth=\dimen152
+\beamer@lastskip=\skip47
+\beamer@areabox=\box53
+\beamer@animcurrent=\box54
+\beamer@animshowbox=\box55
+\beamer@sectionbox=\box56
+\beamer@logobox=\box57
+\beamer@linebox=\box58
+\beamer@sectioncount=\count189
+\beamer@subsubsectionmax=\count190
+\beamer@subsectionmax=\count191
+\beamer@sectionmax=\count192
+\beamer@totalheads=\count193
+\beamer@headcounter=\count194
+\beamer@partstartpage=\count195
+\beamer@sectionstartpage=\count196
+\beamer@subsectionstartpage=\count197
+\beamer@animationtempa=\count198
+\beamer@animationtempb=\count199
+\beamer@xpos=\count266
+\beamer@ypos=\count267
+\beamer@ypos@offset=\count268
+\beamer@showpartnumber=\count269
+\beamer@currentsubsection=\count270
+\beamer@coveringdepth=\count271
+\beamer@sectionadjust=\count272
+\beamer@toclastsection=\count273
+\beamer@tocsectionnumber=\count274
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoptions
+.sty (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+ (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count275
+\Gm@cntv=\count276
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks17
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-
+common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-
+common-lists.tex))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-
+latex.def
+\pgfutil@abb=\box59
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.c
+ode.tex
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.st
+y
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysf
+iltered.code.tex
+\pgfkeys@tmptoks=\toks21
+)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.
+tex
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.c
+ode.tex
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.c
+ode.tex
+\pgf@x=\dimen163
+\pgf@xa=\dimen164
+\pgf@xb=\dimen165
+\pgf@xc=\dimen166
+\pgf@y=\dimen167
+\pgf@ya=\dimen168
+\pgf@yb=\dimen169
+\pgf@yc=\dimen170
+\c@pgf@counta=\count278
+\c@pgf@countb=\count279
+\c@pgf@countc=\count280
+\c@pgf@countd=\count281
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count282
+\pgfmath@box=\box60
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.code.tex
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.basic.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.trigonometric.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.random.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.comparison.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.base.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.round.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.misc.code.tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfuncti
+ons.integerarithmetics.code.tex)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count283
+)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/max_pc/.local/texlive/20
+22/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.s
+ty (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.s
+ty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys
+.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.
+code.tex)
+\pgf@x=\dimen174
+\pgf@y=\dimen175
+\pgf@xa=\dimen176
+\pgf@ya=\dimen177
+\pgf@xb=\dimen178
+\pgf@yb=\dimen179
+\pgf@xc=\dimen180
+\pgf@yc=\dimen181
+\pgf@xd=\dimen182
+\pgf@yd=\dimen183
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count288
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cf
+g
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys
+-luatex.def
+File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count289
+\pgfsyssoftpath@bigbuffer@items=\count290
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.
+tex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.t
+ex)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen184
+\pgf@picmaxx=\dimen185
+\pgf@picminy=\dimen186
+\pgf@picmaxy=\dimen187
+\pgf@pathminx=\dimen188
+\pgf@pathmaxx=\dimen189
+\pgf@pathminy=\dimen190
+\pgf@pathmaxy=\dimen191
+\pgf@xx=\dimen192
+\pgf@xy=\dimen193
+\pgf@yx=\dimen194
+\pgf@yy=\dimen195
+\pgf@zx=\dimen196
+\pgf@zy=\dimen197
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen198
+\pgf@path@lasty=\dimen199
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen256
+\pgf@shorten@start@additional=\dimen257
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count291
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen258
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen259
+\pgf@pt@y=\dimen260
+\pgf@pt@temp=\dimen261
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen262
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen263
+\pgf@sys@shading@range@num=\count292
+\pgf@shadingcount=\count293
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box64
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/xxcolor.st
+y
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count294
+\XC@countmixins=\count295
+) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks28
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.st
+y
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.
+sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen264
+\Hy@linkcounter=\count296
+\Hy@pagecounter=\count297
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count298
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4018.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4018.
+Package hyperref Info: Option `implicit' set `false' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count299
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen265
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count300
+\Field@Width=\dimen266
+\Fld@charsize=\dimen267
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+\Hy@abspage=\count301
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+ (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2022-02-21 v7.00n Hyperref driver for luaTeX
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.st
+y
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfile
+check.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaserequire
+s.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasecompati
+bility.sty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasefont.st
+y (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/sansmatha
+ccent.sty
+Package: sansmathaccent 2020/01/31
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hoo
+k.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetransla
+tor.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator.st
+y
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemisc.st
+y)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetwoscre
+ens.sty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoverlay
+.sty
+\beamer@argscount=\count304
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count305
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetitle.s
+ty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasesection
+.sty
+\c@lecture=\count306
+\c@part=\count307
+\c@section=\count308
+\c@subsection=\count309
+\c@subsubsection=\count310
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframe.s
+ty
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count311
+\beamer@zoomframecount=\count312
+\beamer@frametextheight=\dimen268
+\c@subsectionslide=\count313
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks30
+\framewidth=\dimen269
+\c@framenumber=\count314
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseverbati
+m.sty
+\beamer@verbatimfileout=\write4
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframesi
+ze.sty
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count315
+\beamer@autobreaklastheight=\dimen270
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframeco
+mponents.sty
+\beamer@footins=\box69
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasecolor.s
+ty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenotes.s
+ty
+\beamer@frameboxcopy=\box70
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetemplat
+es.sty
+\beamer@sbttoks=\toks33
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseauxtemp
+lates.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseboxes.s
+ty
+\bmb@box=\box71
+\bmb@colorbox=\box72
+\bmb@boxwidth=\dimen271
+\bmb@boxheight=\dimen272
+\bmb@prevheight=\dimen273
+\bmb@temp=\dimen274
+\bmb@dima=\dimen275
+\bmb@dimb=\dimen276
+\bmb@prevheight=\dimen277
+)
+\beamer@blockheadheight=\dimen278
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaselocalst
+ructure.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip55
+\c@figure=\count316
+\c@table=\count317
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenavigat
+ion.sty
+\beamer@section@min@dim=\dimen279
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetheorem
+s.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen280
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen281
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count318
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count319
+\leftroot@=\count320
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count321
+\DOTSCASE@=\count322
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+\big@size=\dimen282
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count323
+\c@MaxMatrixCols=\count324
+\dotsspace@=\muskip17
+\c@parentequation=\count325
+\dspbrk@lvl=\count326
+\tag@help=\toks36
+\row@=\count327
+\column@=\count328
+\maxfields@=\count329
+\andhelp@=\toks37
+\eqnshift@=\dimen283
+\alignsep@=\dimen284
+\tagshift@=\dimen285
+\tagwidth@=\dimen286
+\totwidth@=\dimen287
+\lineht@=\dimen288
+\@envbody=\toks38
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks45
+)
+\c@theorem=\count330
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasethemes.
+sty))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerthemedefaul
+t.sty
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerfontthemede
+fault.sty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamercolorthemed
+efault.sty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemed
+efault.sty
+\beamer@dima=\dimen289
+\beamer@dimb=\dimen290
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerouterthemed
+efault.sty)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.
+sty
+Package: polyglossia 2022/04/09 v1.55 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
+)
+\XKV@depth=\count331
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse
+.sty (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luat
+ex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count332
+\l__pdf_internal_box=\box75
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-luatex
+.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count333
+\l__fontspec_language_int=\count334
+\l__fontspec_strnum_int=\count335
+\l__fontspec_tmp_int=\count336
+\l__fontspec_tmpa_int=\count337
+\l__fontspec_tmpb_int=\count338
+\l__fontspec_tmpc_int=\count339
+\l__fontspec_em_int=\count340
+\l__fontspec_emdef_int=\count341
+\l__fontspec_strong_int=\count342
+\l__fontspec_strongdef_int=\count343
+\l__fontspec_tmpa_dim=\dimen291
+\l__fontspec_tmpb_dim=\dimen292
+\l__fontspec_tmpc_dim=\dimen293
+ (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3ke
+ys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/luatex/luatexbase/luatexbase.s
+ty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/luatex/ctablestack/ctablestack
+.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count344
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-latex.
+lde
+Package: gloss-latex 2021/07/10 vv1.53 polyglossia: module for default language
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}.
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-englis
+h.ldf
+File: gloss-english.ldf polyglossia: module for english
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Default language is english.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count345
+\csq@gtype=\count346
+\csq@glevel=\count347
+\csq@qlevel=\count348
+\csq@maxlvl=\count349
+\csq@tshold=\count350
+\csq@ltx@everypar=\toks48
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count351
+\calc@Bcount=\count352
+\calc@Adimen=\dimen294
+\calc@Bdimen=\dimen295
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count353
+\calc@Cskip=\skip66
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count354
+\l_MT_multwidth_dim=\dimen296
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen297
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen298
+\l_MT_above_intertext_sep=\dimen299
+\l_MT_below_intertext_sep=\dimen300
+\l_MT_above_shortintertext_sep=\dimen301
+\l_MT_below_shortintertext_sep=\dimen302
+\xmathstrut@box=\box76
+\xmathstrut@dim=\dimen303
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count355
+)) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-04-04 v3.0.50 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen304
+\l__siunitx_angle_marker_box=\box77
+\l__siunitx_angle_unit_box=\box78
+\l__siunitx_compound_count_int=\count356
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translations/translation
+s.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count357
+\l__siunitx_number_min_decimal_int=\count358
+\l__siunitx_number_min_integer_int=\count359
+\l__siunitx_number_round_precision_int=\count360
+\l__siunitx_number_group_minimum_int=\count361
+\l__siunitx_table_tmp_box=\box79
+\l__siunitx_table_tmp_dim=\dimen305
+\l__siunitx_table_column_width_dim=\dimen306
+\l__siunitx_table_integer_box=\box80
+\l__siunitx_table_decimal_box=\box81
+\l__siunitx_table_before_box=\box82
+\l__siunitx_table_after_box=\box83
+\l__siunitx_table_before_dim=\dimen307
+\l__siunitx_table_carry_dim=\dimen308
+\l__siunitx_unit_tmp_int=\count362
+\l__siunitx_unit_position_int=\count363
+\l__siunitx_unit_total_int=\count364
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+ (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen309
+\ar@mcellbox=\box84
+\extrarowheight=\dimen310
+\NC@list=\toks49
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box85
+)) (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count365
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count366
+\c@listtotal=\count367
+\c@listcount=\count368
+\c@liststart=\count369
+\c@liststop=\count370
+\c@citecount=\count371
+\c@citetotal=\count372
+\c@multicitecount=\count373
+\c@multicitetotal=\count374
+\c@instcount=\count375
+\c@maxnames=\count376
+\c@minnames=\count377
+\c@maxitems=\count378
+\c@minitems=\count379
+\c@citecounter=\count380
+\c@maxcitecounter=\count381
+\c@savedcitecounter=\count382
+\c@uniquelist=\count383
+\c@uniquename=\count384
+\c@refsection=\count385
+\c@refsegment=\count386
+\c@maxextratitle=\count387
+\c@maxextratitleyear=\count388
+\c@maxextraname=\count389
+\c@maxextradate=\count390
+\c@maxextraalpha=\count391
+\c@abbrvpenalty=\count392
+\c@highnamepenalty=\count393
+\c@lownamepenalty=\count394
+\c@maxparens=\count395
+\c@parenlevel=\count396
+\blx@tempcnta=\count397
+\blx@tempcntb=\count398
+\blx@tempcntc=\count399
+\c@blx@maxsection=\count400
+\c@blx@maxsegment@0=\count401
+\blx@notetype=\count402
+\blx@parenlevel@text=\count403
+\blx@parenlevel@foot=\count404
+\c@blx@sectionciteorder@0=\count405
+\blx@entrysetcounter=\count406
+\blx@biblioinstance=\count407
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language2
+\c@mincomprange=\count408
+\c@maxcomprange=\count409
+\c@mincompwidth=\count410
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count411
+\c@savedafterword=\count412
+\c@annotator=\count413
+\c@savedannotator=\count414
+\c@author=\count415
+\c@savedauthor=\count416
+\c@bookauthor=\count417
+\c@savedbookauthor=\count418
+\c@commentator=\count419
+\c@savedcommentator=\count420
+\c@editor=\count421
+\c@savededitor=\count422
+\c@editora=\count423
+\c@savededitora=\count424
+\c@editorb=\count425
+\c@savededitorb=\count426
+\c@editorc=\count427
+\c@savededitorc=\count428
+\c@foreword=\count429
+\c@savedforeword=\count430
+\c@holder=\count431
+\c@savedholder=\count432
+\c@introduction=\count433
+\c@savedintroduction=\count434
+\c@namea=\count435
+\c@savednamea=\count436
+\c@nameb=\count437
+\c@savednameb=\count438
+\c@namec=\count439
+\c@savednamec=\count440
+\c@translator=\count441
+\c@savedtranslator=\count442
+\c@shortauthor=\count443
+\c@savedshortauthor=\count444
+\c@shorteditor=\count445
+\c@savedshorteditor=\count446
+\c@labelname=\count447
+\c@savedlabelname=\count448
+\c@institution=\count449
+\c@savedinstitution=\count450
+\c@lista=\count451
+\c@savedlista=\count452
+\c@listb=\count453
+\c@savedlistb=\count454
+\c@listc=\count455
+\c@savedlistc=\count456
+\c@listd=\count457
+\c@savedlistd=\count458
+\c@liste=\count459
+\c@savedliste=\count460
+\c@listf=\count461
+\c@savedlistf=\count462
+\c@location=\count463
+\c@savedlocation=\count464
+\c@organization=\count465
+\c@savedorganization=\count466
+\c@origlocation=\count467
+\c@savedoriglocation=\count468
+\c@origpublisher=\count469
+\c@savedorigpublisher=\count470
+\c@publisher=\count471
+\c@savedpublisher=\count472
+\c@language=\count473
+\c@savedlanguage=\count474
+\c@origlanguage=\count475
+\c@savedoriglanguage=\count476
+\c@pageref=\count477
+\c@savedpageref=\count478
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+\locallabelnumberwidth=\skip84
+\locallabelalphawidth=\skip85
+\localshorthandwidth=\skip86
+\localshortjournalwidth=\skip87
+\localshortserieswidth=\skip88
+\localshorttitlewidth=\skip89
+\localshortauthorwidth=\skip90
+\localshorteditorwidth=\skip91
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-unicode.def
+)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count479
+\c@textcitetotal=\count480
+\c@textcitemaxnames=\count481
+\c@biburlbigbreakpenalty=\count482
+\c@biburlbreakpenalty=\count483
+\c@biburlnumpenalty=\count484
+\c@biburlucpenalty=\count485
+\c@biburllcpenalty=\count486
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count487
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bb
+x
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count488
+\c@bbx:relatedtotal=\count489
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2022-02-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.
+sty
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+)) (./beamerthemetudo.sty
+Package: beamerthemetudo 2019/01/29
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 8.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/beamer/beamerfontthemepr
+ofessionalfonts.sty)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-mat
+h.sty
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-mat
+h-luatex.sty
+Package: unicode-math-luatex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaL
+aTeX
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/lualatex/lualatex-math/lualate
+x-math.sty
+Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
+h LuaLaTeX
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX)
+\g__um_fam_int=\count490
+\g__um_fonts_used_int=\count491
+\l__um_primecount_int=\count492
+\g__um_primekern_muskip=\muskip22
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/unicode-math/unicode-mat
+h-table.tex)))
+luaotfload | cache : Lookup cache loaded from /home/max_pc/.local/texlive/2022/t
+exmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: Font "Akkurat
+ Light Office" not found.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+
+Package fontspec Info: FiraSansLight scale = 0.8489459574233577.
+
+
+Package fontspec Info: Could not resolve font "FiraSansMedium/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FiraSansLight/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FiraSansLight/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: FiraSansLight scale = 0.8489459574233577.
+
+
+Package fontspec Info: FiraSansLight scale = 0.8489459574233577.
+
+
+Package fontspec Info: FiraSansMedium scale = 0.8393169624829337.
+
+
+Package fontspec Info: FiraSansMedium scale = 0.8393169624829337.
+
+
+Package fontspec Info: Font family 'FiraSansLight(0)' created for font
+(fontspec)             'FiraSans Light' with options
+(fontspec)             [Renderer=Harfbuzz,Ligatures=TeX,Scale=MatchLowercase,Bo
+ldFont=FiraSans
+(fontspec)             Medium].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8489459574233577]"FiraSansLight:mode=harf;script
+=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.8489459574233577]"FiraSansLight:mode=harf;script
+=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8393169624829337]"FiraSansMedium:mode=harf;scrip
+t=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.8393169624829337]"FiraSansMedium:mode=harf;scrip
+t=latn;language=dflt;+tlig;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 7.64058pt on input line 46.
+
+Package fontspec Info: FiraSansLight scale = 0.8489491991351113.
+
+
+Package fontspec Info: Could not resolve font "FiraSansMedium/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FiraSansLight/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FiraSansLight/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: FiraSansLight scale = 0.8489491991351113.
+
+
+Package fontspec Info: FiraSansLight scale = 0.8489491991351113.
+
+
+Package fontspec Info: FiraSansMedium scale = 0.8393201674262383.
+
+
+Package fontspec Info: FiraSansMedium scale = 0.8393201674262383.
+
+
+Package fontspec Info: Font family 'FiraSansLight(1)' created for font
+(fontspec)             'FiraSans Light' with options
+(fontspec)             [Renderer=Harfbuzz,Renderer=Basic,Scale=MatchLowercase,B
+oldFont=FiraSans
+(fontspec)             Medium].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8489491991351113]"FiraSansLight:mode=base;script
+=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.8489491991351113]"FiraSansLight:mode=base;script
+=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8393201674262383]"FiraSansMedium:mode=base;scrip
+t=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.8393201674262383]"FiraSansMedium:mode=base;scrip
+t=latn;language=dflt;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/FiraSansLight(1)/m/n on input line 
+46.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(1)/bx/n on input lin
+e 46.
+
+Package fontspec Info: FiraMono scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMono scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMono/B scale = 0.8361579575859362.
+
+
+Package fontspec Info: FiraMono/I scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMono/BI scale = 0.8361579575859362.
+
+
+Package fontspec Info: Font family 'FiraMono(0)' created for font 'Fira Mono'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,WordSpace={1,0,0},HyphenChar=None,Pun
+ctuationSpace=WordSpace,Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8425063859631063]"FiraMono:mode=harf;script=latn
+;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8361579575859362]"FiraMono/B:mode=harf;script=la
+tn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.8425063859631063]"FiraMono/I:mode=harf;script=la
+tn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.8361579575859362]"FiraMono/BI:mode=harf;script=l
+atn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: FiraMono scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMono scale = 0.8425063859631063.
+
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: FiraMono/B scale = 0.8361579575859362.
+
+luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: FiraMono/I scale = 0.8425063859631063.
+
+luaotfload | aux : font no 49 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: FiraMono/BI scale = 0.8361579575859362.
+
+luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'FiraMono(1)' created for font 'Fira Mono'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,Renderer=Basic,Scale=MatchLowercase].
+
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8425063859631063]"FiraMono:mode=base;script=latn
+;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8361579575859362]"FiraMono/B:mode=base;script=la
+tn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.8425063859631063]"FiraMono/I:mode=base;script=la
+tn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.8361579575859362]"FiraMono/BI:mode=base;script=l
+atn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(1)/m/n on input line 47.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(1)/bx/n on input line 47.
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: Font family 'FiraMath(0)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
+icFont={},SmallCapsFont={},Script=Math,FontAdjustment={\__um_luatex_copy_fontdi
+mens:
+(fontspec)             },Scale={MatchLowercase}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8425063859631063]"FiraMath:mode=base;script=math
+;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+LaTeX Font Info:    Font shape `TU/FiraMath(0)/m/n' will be
+(Font)              scaled to size 7.58249pt on input line 48.
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: Font family 'FiraMath(1)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.74-},{Size=5.85-7.
+74,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-5.85,Font=Fira
+(fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
+ex_copy_fontdimens:
+(fontspec)             },Scale={MatchLowercase}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <7.74->s*[0.8425063859631063]"FiraMath:mode=base;script=
+math;language=dflt;"<5.85-7.74>s*[0.8425063859631063]"FiraMath:mode=base;script
+=math;language=dflt;+ssty=0;"<-5.85>s*[0.8425063859631063]"FiraMath:mode=base;s
+cript=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 7.58249pt on input line 48.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 48.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/FiraMath(1)/m/n on input line 48.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 48.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/FiraMath(1)/b/n on input line 48.
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.8425906366017026.
+
+
+Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.8425906366017026.
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.8425906366017026.
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.8425906366017026.
+
+
+Package fontspec Info: Font family 'FiraMath(2)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.74-},{Size=5.85-7.
+74,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-5.85,Font=Fira
+(fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
+ex_copy_fontdimens:
+(fontspec)             },Scale={MatchLowercase},ScaleAgain=1.0001,FontAdjustmen
+t={\fontdimen
+(fontspec)             8\font =4.39784pt\relax \fontdimen 9\font
+(fontspec)             =3.41211pt\relax \fontdimen 10\font =3.41211pt\relax
+(fontspec)             \fontdimen 11\font =5.30774pt\relax \fontdimen 12\font
+(fontspec)             =3.63959pt\relax \fontdimen 13\font =3.03299pt\relax
+(fontspec)             \fontdimen 14\font =3.03299pt\relax \fontdimen 15\font
+(fontspec)             =2.04727pt\relax \fontdimen 16\font =2.65387pt\relax
+(fontspec)             \fontdimen 17\font =2.65387pt\relax \fontdimen 18\font
+(fontspec)             =2.72969pt\relax \fontdimen 19\font =1.89561pt\relax
+(fontspec)             \fontdimen 22\font =2.1231pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <7.74->s*[0.8425906366017026]"FiraMath:mode=base;script=
+math;language=dflt;"<5.85-7.74>s*[0.8425906366017026]"FiraMath:mode=base;script
+=math;language=dflt;+ssty=0;"<-5.85>s*[0.8425906366017026]"FiraMath:mode=base;s
+cript=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =4.39784pt\relax \fontdimen 9\font =3.41211pt\relax
+(fontspec)             \fontdimen 10\font =3.41211pt\relax \fontdimen 11\font
+(fontspec)             =5.30774pt\relax \fontdimen 12\font =3.63959pt\relax
+(fontspec)             \fontdimen 13\font =3.03299pt\relax \fontdimen 14\font
+(fontspec)             =3.03299pt\relax \fontdimen 15\font =2.04727pt\relax
+(fontspec)             \fontdimen 16\font =2.65387pt\relax \fontdimen 17\font
+(fontspec)             =2.65387pt\relax \fontdimen 18\font =2.72969pt\relax
+(fontspec)             \fontdimen 19\font =1.89561pt\relax \fontdimen 22\font
+(fontspec)             =2.1231pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 48.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/FiraMath(2)/m/n on input line 48.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 48.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/FiraMath(2)/b/n on input line 48.
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.84242213532451.
+
+
+Package fontspec Info: Could not resolve font "FiraMath/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.84242213532451.
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.84242213532451.
+
+
+Package fontspec Info: FiraMath scale = 0.8425063859631063.
+
+
+Package fontspec Info: FiraMath scale = 0.84242213532451.
+
+
+Package fontspec Info: Font family 'FiraMath(3)' created for font 'Fira Math'
+(fontspec)             with options
+(fontspec)             [Renderer=Harfbuzz,Renderer=Basic,BoldItalicFont={},Ital
+icFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=7.74-},{Size=5.85-7.
+74,Font=Fira
+(fontspec)             Math,Style=MathScript},{Size=-5.85,Font=Fira
+(fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luat
+ex_copy_fontdimens:
+(fontspec)             },Scale={MatchLowercase},ScaleAgain=0.9999,FontAdjustmen
+t={\fontdimen
+(fontspec)             8\font =0.57626pt\relax \fontdimen 9\font
+(fontspec)             =1.13736pt\relax \fontdimen 10\font =1.13736pt\relax
+(fontspec)             \fontdimen 11\font =1.13736pt\relax \fontdimen 12\font
+(fontspec)             =4.54948pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <7.74->s*[0.84242213532451]"FiraMath:mode=base;script=ma
+th;language=dflt;"<5.85-7.74>s*[0.84242213532451]"FiraMath:mode=base;script=mat
+h;language=dflt;+ssty=0;"<-5.85>s*[0.84242213532451]"FiraMath:mode=base;script=
+math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =0.57626pt\relax \fontdimen 9\font =1.13736pt\relax
+(fontspec)             \fontdimen 10\font =1.13736pt\relax \fontdimen 11\font
+(fontspec)             =1.13736pt\relax \fontdimen 12\font =4.54948pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 4
+8.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/m/n on input line 48.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 48.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/FiraMath(3)/b/n on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 5.45938pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 4.39784pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 7.58331pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.45998pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 4.39832pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 7.5818pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 5.4589pt on input line 48.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 4.39745pt on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\headerheight=\skip92
+\footerleftwidth=\skip93
+\footercenterwidth=\skip94
+\footerrightwidth=\skip95
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'american'.
+
+(./build/slides.aux)
+\openout1 = slides.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(15.0pt, 425.24408pt, 15.0pt)
+* v-part:(T,H,B)=(0.0pt, 284.52756pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=284.52756pt
+* \textwidth=425.24408pt
+* \textheight=256.07483pt
+* \oddsidemargin=-57.26999pt
+* \evensidemargin=-57.26999pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=9.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count493
+\scratchdimen=\dimen311
+\scratchbox=\box86
+\nofMPsegments=\count494
+\nofMParguments=\count495
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen312
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
+\everyMPtoPDFconversion=\toks51
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 55.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count499
+)
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator-ba
+sic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator-bi
+bliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator-en
+vironment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator-mo
+nths-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator-nu
+mbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/translator/translator-th
+eorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en/bcp47}  =>  {en}
+>  {en/options}  =>  {bcp47=en}
+>  {en-AU/target}  =>  {en}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/bcp47}  =>  {en-AU}
+>  {en-AU/babelname}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian,babelname=autralian,bcp47=en-AU}
+>  {en-CA/target}  =>  {en}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/bcp47}  =>  {en-CA}
+>  {en-CA/babelname}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian,babelname=canadian,bcp47=en-CA}
+>  {en-GB/target}  =>  {en}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/bcp47}  =>  {en-NZ}
+>  {en-GB/babelname}  =>  {british}
+>  {en-GB/options}  =>  {variant=british,babelname=british,bcp47=en-NZ}
+>  {en-NZ/target}  =>  {en}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/bcp47}  =>  {en-NZ}
+>  {en-NZ/babelname}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand,babelname=newzealand,bcp47=en-NZ}
+>  {en-US/target}  =>  {en}
+>  {en-US/variant}  =>  {us}
+>  {en-US/bcp47}  =>  {en-US}
+>  {en-US/babelname}  =>  {us}
+>  {en-US/options}  =>  {variant=us,babelname=american,bcp47=en-US}
+>  {american/target}  =>  {en-US}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {en-AU}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {en-GB}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {en-CA}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {en-NZ}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}.
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/american.lb
+x
+File: american.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/max_pc/.local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout5 = slides.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'slides.bbl' not found.
+
+No file slides.bbl.
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/FiraMath(1)/m/n --> TU/lmr/m/n on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 55.
+
+Package unicode-math Warning: Using \overbracket and \underbracket from
+(unicode-math)                `mathtools' package.
+(unicode-math)                 
+(unicode-math)                 Use \Uoverbracket and \Uunderbracket for
+(unicode-math)                original `unicode-math' definition.
+
+
+Package unicode-math Warning: I'm going to overwrite the following commands
+(unicode-math)                from the `mathtools' package: 
+(unicode-math)                 
+(unicode-math)                     \dblcolon, \coloneqq, \Coloneqq, \eqqcolon.
+(unicode-math)                
+(unicode-math)                 
+(unicode-math)                 Note that since I won't overwrite the other
+(unicode-math)                colon-like commands, using them will lead to
+(unicode-math)                inconsistencies.
+
+LaTeX Info: Redefining \rmfamily on input line 55.
+LaTeX Info: Redefining \sffamily on input line 55.
+LaTeX Info: Redefining \ttfamily on input line 55.
+No file slides.nav.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 4.24477pt on input line 55.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 4.19655pt on input line 55.
+
+LaTeX Warning: File `logos/tu.pdf' not found on input line 55.
+
+
+! Package luatex.def Error: File `logos/tu.pdf' not found: using draft setting.
+
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \begin{document}
+                   
+
+Here is how much of LuaTeX's memory you used:
+ 41802 strings out of 477785
+ 125048,1977958 words of node,token memory allocated
+ 2002 words of node memory still in use:
+   31 hlist, 5 vlist, 6 rule, 1 disc, 6 local_par, 7 dir, 38 glue, 11 kern, 10 p
+enalty, 33 glyph, 69 attribute, 89 glue_spec, 69 attribute_list, 8 temp, 7 if_st
+ack, 5 write, 1 pdf_dest, 30 pdf_colorstack nodes
+   avail lists: 1:1,2:3,3:1,5:1
+ 60938 multiletter control sequences out of 65536+600000
+ 74 fonts using 22237427 bytes
+ 128i,8n,144p,738b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
