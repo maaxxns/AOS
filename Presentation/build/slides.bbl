@@ -299,7 +299,7 @@
       \field{pages}{59\bibrangedash 90}
       \range{pages}{32}
     \endentry
-    \entry{https://doi.org/10.48550/arxiv.2103.11710}{misc}{}
+    \entry{arxiv}{article}{}
       \name{author}{12}{}{%
         {{hash=91dba31976769b1a09aced4ad64eafa1}{%
            family={Rouzegar},
@@ -387,124 +387,6 @@
       \verb https://arxiv.org/abs/2103.11710
       \endverb
       \keyw{Mesoscale and Nanoscale Physics (cond-mat.mes-hall),FOS: Physical sciences,FOS: Physical sciences}
-    \endentry
-    \entry{coherence_legnth}{article}{}
-      \name{author}{3}{}{%
-        {{hash=0964c28bdb97f216585242e2cbac70c4}{%
-           family={Nahata},
-           familyi={N\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=cc99427b01dd1526d9e93965d311b2d1}{%
-           family={Weling},
-           familyi={W\bibinitperiod},
-           given={A.\bibnamedelimi S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=c450f46bdfec190a516472152147f2b8}{%
-           family={Heinz},
-           familyi={H\bibinitperiod},
-           given={T.\bibnamedelimi F.},
-           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb9abb7d14e636aa1db5c7772ed63170}
-      \strng{fullhash}{eb9abb7d14e636aa1db5c7772ed63170}
-      \strng{bibnamehash}{eb9abb7d14e636aa1db5c7772ed63170}
-      \strng{authorbibnamehash}{eb9abb7d14e636aa1db5c7772ed63170}
-      \strng{authornamehash}{eb9abb7d14e636aa1db5c7772ed63170}
-      \strng{authorfullhash}{eb9abb7d14e636aa1db5c7772ed63170}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Physics Letters}
-      \field{number}{16}
-      \field{title}{A wideband coherent terahertz spectroscopy system using optical rectification and electro‐optic sampling}
-      \field{volume}{69}
-      \field{year}{1996}
-      \field{pages}{2321\bibrangedash 2323}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1063/1.117511
-      \endverb
-    \endentry
-    \entry{GaP_coherence_length}{article}{}
-      \name{author}{11}{}{%
-        {{hash=ccf87731e812c2775e6cdb36ce249710}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=48f6aea3876ac697f7fa5de8fbe28022}{%
-           family={Chai},
-           familyi={C\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=3b3d8a7d315744c8cea7f094e48581d2}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f29effe391f71e68756a19ab272a6123}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=19cfe3e3bfe6e656ed09d5e62c71e080}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Baozhong},
-           giveni={B\bibinitperiod}}}%
-        {{hash=f0d9093001c6568ad16ae4393f795d5a}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Minglie},
-           giveni={M\bibinitperiod}}}%
-        {{hash=cb5ae5985f91ad052992b85c3392ce45}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Yanfeng},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=b9bd9920c7e43164593fee484a799c47}{%
-           family={Xing},
-           familyi={X\bibinitperiod},
-           given={Qirong},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=77d94fe7ebba294439e7c9239fd052a4}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Chingyue},
-           giveni={C\bibinitperiod}}}%
-        {{hash=c1d4656c756d284ad51b4b2bd24bef7a}{%
-           family={Fedotov},
-           familyi={F\bibinitperiod},
-           given={Andrey\bibnamedelima B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=3fa68bcb17c6cc631ba4e81ff3f25e53}{%
-           family={Zheltikov},
-           familyi={Z\bibinitperiod},
-           given={Aleksei\bibnamedelima M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
-      \strng{fullhash}{d295a95e97acc219ae26123c1e2a2aa4}
-      \strng{bibnamehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
-      \strng{authorbibnamehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
-      \strng{authornamehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
-      \strng{authorfullhash}{d295a95e97acc219ae26123c1e2a2aa4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Physics Letters}
-      \field{number}{3}
-      \field{title}{Efficient terahertz wave generation from GaP crystals pumped by chirp-controlled pulses from femtosecond photonic crystal fiber amplifier}
-      \field{volume}{104}
-      \field{year}{2014}
-      \field{pages}{031117}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1063/1.4862270
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

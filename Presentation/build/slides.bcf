@@ -2350,21 +2350,14 @@
     <bcf:citekey order="4" nocite="1">communication</bcf:citekey>
     <bcf:citekey order="5" nocite="1">datasaving</bcf:citekey>
     <bcf:citekey order="6" nocite="1">wiki_book</bcf:citekey>
-    <bcf:citekey order="7" nocite="1">https://doi.org/10.48550/arxiv.2103.11710</bcf:citekey>
-    <bcf:citekey order="8" nocite="1">coherence_legnth</bcf:citekey>
-    <bcf:citekey order="9" nocite="1">coherence_legnth</bcf:citekey>
-    <bcf:citekey order="10" nocite="1">coherence_legnth</bcf:citekey>
-    <bcf:citekey order="11" nocite="1">GaP_coherence_length</bcf:citekey>
-    <bcf:citekey order="12" nocite="1">GaP_coherence_length</bcf:citekey>
-    <bcf:citekey order="13">spectrum_pic</bcf:citekey>
-    <bcf:citekey order="14">THzgap_applications</bcf:citekey>
-    <bcf:citekey order="15">thz_explosive_detec</bcf:citekey>
-    <bcf:citekey order="16">communication</bcf:citekey>
-    <bcf:citekey order="17">datasaving</bcf:citekey>
-    <bcf:citekey order="18">wiki_book</bcf:citekey>
-    <bcf:citekey order="19">https://doi.org/10.48550/arxiv.2103.11710</bcf:citekey>
-    <bcf:citekey order="20">coherence_legnth</bcf:citekey>
-    <bcf:citekey order="21">GaP_coherence_length</bcf:citekey>
+    <bcf:citekey order="7" nocite="1">arxiv</bcf:citekey>
+    <bcf:citekey order="8">spectrum_pic</bcf:citekey>
+    <bcf:citekey order="9">THzgap_applications</bcf:citekey>
+    <bcf:citekey order="10">thz_explosive_detec</bcf:citekey>
+    <bcf:citekey order="11">communication</bcf:citekey>
+    <bcf:citekey order="12">datasaving</bcf:citekey>
+    <bcf:citekey order="13">wiki_book</bcf:citekey>
+    <bcf:citekey order="14">arxiv</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
