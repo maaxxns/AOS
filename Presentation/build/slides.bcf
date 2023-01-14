@@ -2344,3 +2344,42 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" nocite="1">spectrum_pic</bcf:citekey>
+    <bcf:citekey order="2" nocite="1">THzgap_applications</bcf:citekey>
+    <bcf:citekey order="3" nocite="1">thz_explosive_detec</bcf:citekey>
+    <bcf:citekey order="4" nocite="1">communication</bcf:citekey>
+    <bcf:citekey order="5" nocite="1">datasaving</bcf:citekey>
+    <bcf:citekey order="6" nocite="1">wiki_book</bcf:citekey>
+    <bcf:citekey order="7" nocite="1">https://doi.org/10.48550/arxiv.2103.11710</bcf:citekey>
+    <bcf:citekey order="8" nocite="1">coherence_legnth</bcf:citekey>
+    <bcf:citekey order="9" nocite="1">coherence_legnth</bcf:citekey>
+    <bcf:citekey order="10" nocite="1">coherence_legnth</bcf:citekey>
+    <bcf:citekey order="11" nocite="1">GaP_coherence_length</bcf:citekey>
+    <bcf:citekey order="12" nocite="1">GaP_coherence_length</bcf:citekey>
+    <bcf:citekey order="13">spectrum_pic</bcf:citekey>
+    <bcf:citekey order="14">THzgap_applications</bcf:citekey>
+    <bcf:citekey order="15">thz_explosive_detec</bcf:citekey>
+    <bcf:citekey order="16">communication</bcf:citekey>
+    <bcf:citekey order="17">datasaving</bcf:citekey>
+    <bcf:citekey order="18">wiki_book</bcf:citekey>
+    <bcf:citekey order="19">https://doi.org/10.48550/arxiv.2103.11710</bcf:citekey>
+    <bcf:citekey order="20">coherence_legnth</bcf:citekey>
+    <bcf:citekey order="21">GaP_coherence_length</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="none">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

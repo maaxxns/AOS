@@ -1,0 +1,8 @@
+\selectlanguage *{english}
+\beamer@sectionintoc {1}{Recap}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{The spectrum}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Applications for THz}{4}{0}{1}
+\beamer@sectionintoc {2}{Introduction}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Common emitters}{5}{0}{2}
+\beamer@sectionintoc {3}{Inverse Spin Hall effect}{9}{0}{3}
+\beamer@sectionintoc {5}{References }{15}{0}{4}

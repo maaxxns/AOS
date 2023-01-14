@@ -1,0 +1,512 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{spectrum_pic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3b4165a6865648d39fa503cecb54c956}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Gwyn\bibnamedelima P},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{3b4165a6865648d39fa503cecb54c956}
+      \strng{fullhash}{3b4165a6865648d39fa503cecb54c956}
+      \strng{bibnamehash}{3b4165a6865648d39fa503cecb54c956}
+      \strng{authorbibnamehash}{3b4165a6865648d39fa503cecb54c956}
+      \strng{authornamehash}{3b4165a6865648d39fa503cecb54c956}
+      \strng{authorfullhash}{3b4165a6865648d39fa503cecb54c956}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reports on Progress in Physics}
+      \field{number}{2}
+      \field{title}{Filling the THz gap—high power sources and applications}
+      \field{volume}{69}
+      \field{year}{2005}
+      \field{pages}{301}
+      \range{pages}{1}
+    \endentry
+    \entry{THzgap_applications}{article}{}
+      \name{author}{4}{}{%
+        {{hash=57554d74f67b2bf056637844a52d72a9}{%
+           family={Ashish},
+           familyi={A\bibinitperiod},
+           given={Y.\bibnamedelimi P.},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=07d7d53ee48cce9e0bef3ada8ba933d5}{%
+           family={Deepak},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d96bfad2159179b9e0fbd406a1dc2604}{%
+           family={Kiran},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8b08e6cd49fa28ab5cdcd86005b5efe6}{%
+           family={Deelip},
+           familyi={D\bibinitperiod},
+           given={V.\bibnamedelimi D.},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dfac7c166e0ab960e377c163f6669b1d}
+      \strng{fullhash}{682de45316165bf3793e8213ca89a773}
+      \strng{bibnamehash}{dfac7c166e0ab960e377c163f6669b1d}
+      \strng{authorbibnamehash}{dfac7c166e0ab960e377c163f6669b1d}
+      \strng{authornamehash}{dfac7c166e0ab960e377c163f6669b1d}
+      \strng{authorfullhash}{682de45316165bf3793e8213ca89a773}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{New advances in different technologies have made the previously unused terahertz frequency band accessible for imaging systems. The ‘terahertz gap’ has a frequency ranges from ∼0.3 THz to ∼10 THz in the electromagnetic spectrum which in between microwave and infrared. The terahertz radiations are invisible to naked eye & in comparison with X-ray they are intrinsically safe, non-destructive and non-invasive. This is such a new field that researchers around the world race to build the first practical system. It resolves many of the questions left unanswered by complementary techniques, such as optical imaging, Raman and infrared. Terahertz spectroscopy has number of applications run from detecting defects in tablet coating, product inspection (industry), spectroscopy (chemistry, astronomy), material characterization (physics), weapons concealed under clothing (airports), detection of cancer and caries. In the pharmaceutical industries it enables nondestructive, internal, chemical analysis of tablets, capsules and other dosage forms. This paper tries therefore not only to provide a brief overview over the imaging technology, but also over the whole range of current systems and research in terahertz technology.}
+      \field{issn}{0975-7619}
+      \field{journaltitle}{Drug Invention Today}
+      \field{number}{2}
+      \field{title}{Terahertz technology and its applications}
+      \field{volume}{5}
+      \field{year}{2013}
+      \field{pages}{157\bibrangedash 163}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.dit.2013.03.009
+      \endverb
+    \endentry
+    \entry{thz_explosive_detec}{article}{}
+      \name{author}{4}{}{%
+        {{hash=99795d8cf0cefe69673300404f6b7c43}{%
+           family={Hai-Bo},
+           familyi={H\bibinithyphendelim B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3ebc92b2eb664a62771d197b336b6b7f}{%
+           family={Yunqing},
+           familyi={Y\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0e1addb3e8aad7b60151f7f22abc4612}{%
+           family={Glenn},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a77e90d38994f0133f05fc04d9c6a87c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={X.-C.},
+           giveni={X\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{e70c94e5adfbdef71fd33f64ee3dcd6c}
+      \strng{fullhash}{f966dcff637c0fb0077c5ba37ec99dce}
+      \strng{bibnamehash}{e70c94e5adfbdef71fd33f64ee3dcd6c}
+      \strng{authorbibnamehash}{e70c94e5adfbdef71fd33f64ee3dcd6c}
+      \strng{authornamehash}{e70c94e5adfbdef71fd33f64ee3dcd6c}
+      \strng{authorfullhash}{f966dcff637c0fb0077c5ba37ec99dce}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The reflection spectrum of the explosive RDX was acquired from a diffuse reflection measurement using a THz time-domain spectroscopy system in combination with a diffuse reflectance accessory. By applying the Kramers-Kronig transform to the reflection spectrum, the absorption spectrum (0.2--1.8 THz) was obtained. It agrees with the result from a transmission measurement and distinguishes RDX from other materials. The effect of the reference spectrum was examined by using both a Teflon pellet and a copper plate as references. The strong absorption of RDX at 0.82 THz allowed it to be identified by the diffuse reflection measurement even when the RDX sample was covered with certain optically opaque materials. Our investigation demonstrates that THz technique is capable of detecting and identifying hidden RDX-related explosives in a diffuse reflection mode, which is crucial for the standoff detection in the real world applications.}
+      \field{journaltitle}{Opt. Express}
+      \field{number}{1}
+      \field{title}{Detection and identification of explosive RDX by THz diffuse reflection spectroscopy}
+      \field{volume}{14}
+      \field{year}{2006}
+      \field{pages}{415\bibrangedash 423}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1364/OPEX.14.000415
+      \endverb
+    \endentry
+    \entry{communication}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ae8e145f7f8b29d00e1cd606502ea214}{%
+           family={Rikkinen},
+           familyi={R\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5d961d795e596d0bcf75cf0838a070cf}{%
+           family={Kyosti},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1915066bd96627414e428542e175e469}{%
+           family={Leinonen},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1afb0d1ce55ef66eb98b9cca8636aa0a}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3301dac34704a722efa6683c2523c137}{%
+           family={Parssinen},
+           familyi={P\bibinitperiod},
+           given={Aarno},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{80d879b39024aaf89f7fb7e513ccff7f}
+      \strng{fullhash}{5d2116b143b2adee9397be2ececb0e1c}
+      \strng{bibnamehash}{80d879b39024aaf89f7fb7e513ccff7f}
+      \strng{authorbibnamehash}{80d879b39024aaf89f7fb7e513ccff7f}
+      \strng{authornamehash}{80d879b39024aaf89f7fb7e513ccff7f}
+      \strng{authorfullhash}{5d2116b143b2adee9397be2ececb0e1c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Magazine}
+      \field{number}{11}
+      \field{title}{THz radio communication: Link budget analysis toward 6G}
+      \field{volume}{58}
+      \field{year}{2020}
+      \field{pages}{22\bibrangedash 27}
+      \range{pages}{6}
+    \endentry
+    \entry{datasaving}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=3724930802657619d8154aaa9e47c204}{%
+           family={Olejnı́k},
+           familyi={O\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=596902ed7cd8825eac985d99d2778537}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=84bee81c073819475b1a2e4a117c7958}{%
+           family={Kašpar},
+           familyi={K\bibinitperiod},
+           given={Zdeněk},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=79912fd3e1c65e0c304457fff3db19b9}{%
+           family={Novák},
+           familyi={N\bibinitperiod},
+           given={Vı́t},
+           giveni={V\bibinitperiod}}}%
+        {{hash=27babb3477e34d814bcc5cef722c2f48}{%
+           family={Wadley},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=59d61f11da6df64f20f6367f8b853bcb}{%
+           family={Campion},
+           familyi={C\bibinitperiod},
+           given={Richard\bibnamedelima P},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1f58aefbf04a9386b7f7b5c66d68ef33}{%
+           family={Baumgartner},
+           familyi={B\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=02b1e5386b6660bf2d22ecb318a36fdb}{%
+           family={Gambardella},
+           familyi={G\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=72413f864f1799c6058c08f44bfa213b}{%
+           family={Němec},
+           familyi={N\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=04c96d3cc4914366034338a5ae4fe889}{%
+           family={Wunderlich},
+           familyi={W\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{de2e9e78b446aab0cf2f7e86b85ee16b}
+      \strng{fullhash}{eed08ea7754926b96445ff68a3f9ca78}
+      \strng{bibnamehash}{de2e9e78b446aab0cf2f7e86b85ee16b}
+      \strng{authorbibnamehash}{de2e9e78b446aab0cf2f7e86b85ee16b}
+      \strng{authornamehash}{de2e9e78b446aab0cf2f7e86b85ee16b}
+      \strng{authorfullhash}{eed08ea7754926b96445ff68a3f9ca78}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science advances}
+      \field{number}{3}
+      \field{title}{Terahertz electrical writing speed in an antiferromagnetic memory}
+      \field{volume}{4}
+      \field{year}{2018}
+      \field{pages}{eaar3566}
+      \range{pages}{-1}
+    \endentry
+    \entry{wiki_book}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9bf4a9bcd7edc7fedd31ed8d2146baa1}{%
+           family={Wilke},
+           familyi={W\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=eeb9a5a67244761d5ab06dc1565c9218}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{c734ef32c6b85879ef27bc30facb90bf}
+      \strng{fullhash}{c734ef32c6b85879ef27bc30facb90bf}
+      \strng{bibnamehash}{c734ef32c6b85879ef27bc30facb90bf}
+      \strng{authorbibnamehash}{c734ef32c6b85879ef27bc30facb90bf}
+      \strng{authornamehash}{c734ef32c6b85879ef27bc30facb90bf}
+      \strng{authorfullhash}{c734ef32c6b85879ef27bc30facb90bf}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Terahertz Spectroscopy}
+      \field{title}{Nonlinear Optical Techniques for Terahertz Pulse Generation and Detection—Optical Rectication and Electrooptic Sampling}
+      \field{year}{2017}
+      \field{pages}{59\bibrangedash 90}
+      \range{pages}{32}
+    \endentry
+    \entry{https://doi.org/10.48550/arxiv.2103.11710}{misc}{}
+      \name{author}{12}{}{%
+        {{hash=91dba31976769b1a09aced4ad64eafa1}{%
+           family={Rouzegar},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=06aa37d24962039e68b79a5d09d2f7d1}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=742e86bbc74418a7c0e8d8b2937491ea}{%
+           family={Nadvornik},
+           familyi={N\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6698270a47245d78c4b2012a355a6ec8}{%
+           family={Reiss},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=84b7737935ea824e468e124527a59b67}{%
+           family={Chekhov},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e815b32ae4a63e3de3c6ee5077c584db}{%
+           family={Gueckstock},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=f45cd5f3b2bad760a095c00f8de2908f}{%
+           family={In},
+           familyi={I\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3f55508ccb68aaac7c65adce70e0f1b4}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bb4c6db4059c5c331fb6ae1f3dc37c19}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=04c0c8b9928746b514ac783fc9dcf69f}{%
+           family={Brouwer},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1127c78fe6c8c55679a99404a4ea73e7}{%
+           family={Woltersdorf},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=23bee3de456140f7b134f77768676e9d}{%
+           family={Kampfrath},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a3d3b30f3bb000b007638b8433169ce2}
+      \strng{fullhash}{493d228fa2a27892e966383b8a935d79}
+      \strng{bibnamehash}{a3d3b30f3bb000b007638b8433169ce2}
+      \strng{authorbibnamehash}{a3d3b30f3bb000b007638b8433169ce2}
+      \strng{authornamehash}{a3d3b30f3bb000b007638b8433169ce2}
+      \strng{authorfullhash}{493d228fa2a27892e966383b8a935d79}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Laser-induced terahertz spin transport in magnetic nanostructures arises from the same force as ultrafast demagnetization}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2103.11710
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2103.11710
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2103.11710
+      \endverb
+      \keyw{Mesoscale and Nanoscale Physics (cond-mat.mes-hall),FOS: Physical sciences,FOS: Physical sciences}
+    \endentry
+    \entry{coherence_legnth}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0964c28bdb97f216585242e2cbac70c4}{%
+           family={Nahata},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cc99427b01dd1526d9e93965d311b2d1}{%
+           family={Weling},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c450f46bdfec190a516472152147f2b8}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb9abb7d14e636aa1db5c7772ed63170}
+      \strng{fullhash}{eb9abb7d14e636aa1db5c7772ed63170}
+      \strng{bibnamehash}{eb9abb7d14e636aa1db5c7772ed63170}
+      \strng{authorbibnamehash}{eb9abb7d14e636aa1db5c7772ed63170}
+      \strng{authornamehash}{eb9abb7d14e636aa1db5c7772ed63170}
+      \strng{authorfullhash}{eb9abb7d14e636aa1db5c7772ed63170}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{16}
+      \field{title}{A wideband coherent terahertz spectroscopy system using optical rectification and electro‐optic sampling}
+      \field{volume}{69}
+      \field{year}{1996}
+      \field{pages}{2321\bibrangedash 2323}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.117511
+      \endverb
+    \endentry
+    \entry{GaP_coherence_length}{article}{}
+      \name{author}{11}{}{%
+        {{hash=ccf87731e812c2775e6cdb36ce249710}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=48f6aea3876ac697f7fa5de8fbe28022}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3b3d8a7d315744c8cea7f094e48581d2}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f29effe391f71e68756a19ab272a6123}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=19cfe3e3bfe6e656ed09d5e62c71e080}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Baozhong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f0d9093001c6568ad16ae4393f795d5a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Minglie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cb5ae5985f91ad052992b85c3392ce45}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanfeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b9bd9920c7e43164593fee484a799c47}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Qirong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=77d94fe7ebba294439e7c9239fd052a4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chingyue},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c1d4656c756d284ad51b4b2bd24bef7a}{%
+           family={Fedotov},
+           familyi={F\bibinitperiod},
+           given={Andrey\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3fa68bcb17c6cc631ba4e81ff3f25e53}{%
+           family={Zheltikov},
+           familyi={Z\bibinitperiod},
+           given={Aleksei\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
+      \strng{fullhash}{d295a95e97acc219ae26123c1e2a2aa4}
+      \strng{bibnamehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
+      \strng{authorbibnamehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
+      \strng{authornamehash}{4dfb08c55c5ef23a939e5c0fc9c9e231}
+      \strng{authorfullhash}{d295a95e97acc219ae26123c1e2a2aa4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{3}
+      \field{title}{Efficient terahertz wave generation from GaP crystals pumped by chirp-controlled pulses from femtosecond photonic crystal fiber amplifier}
+      \field{volume}{104}
+      \field{year}{2014}
+      \field{pages}{031117}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4862270
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
