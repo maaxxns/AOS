@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.11)  14 JAN 2023 12:47
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.11)  14 JAN 2023 13:49
  restricted system commands enabled.
 **slides.tex
 (./slides.tex
@@ -2089,7 +2089,7 @@ Package luatex.def Info: logos/tu.pdf  used on input line 61.
  [2
 
 ]
-<images/spectrum.png, id=45, 1354.05875pt x 600.2425pt>
+<images/spectrum.png, id=47, 1354.05875pt x 600.2425pt>
 File: images/spectrum.png Graphic file (type png)
 <use images/spectrum.png>
 Package luatex.def Info: images/spectrum.png  used on input line 74.
@@ -2113,12 +2113,12 @@ Package luatex.def Info: logos/tu.pdf  used on input line 94.
 [4
 
 ]
-<images/Aufbau.pdf, id=62, 774.54683pt x 334.17372pt>
+<images/Aufbau.pdf, id=64, 774.54683pt x 334.17372pt>
 File: images/Aufbau.pdf Graphic file (type pdf)
 <use images/Aufbau.pdf>
 Package luatex.def Info: images/Aufbau.pdf  used on input line 113.
 (luatex.def)             Requested size: 208.36777pt x 89.89667pt.
-<images/2_11_30_20normalX.pdf, id=63, 1156.32pt x 578.16pt>
+<images/2_11_30_20normalX.pdf, id=65, 1156.32pt x 578.16pt>
 File: images/2_11_30_20normalX.pdf Graphic file (type pdf)
 <use images/2_11_30_20normalX.pdf>
 Package luatex.def Info: images/2_11_30_20normalX.pdf  used on input line 113.
@@ -2134,7 +2134,7 @@ Package luatex.def Info: logos/tu.pdf  used on input line 113.
 [5
 
 <./images/Aufbau.pdf><./images/2_11_30_20normalX.pdf>]
-<pics/emitter.png, id=111, 1107.38719pt x 634.62094pt>
+<pics/emitter.png, id=113, 1107.38719pt x 634.62094pt>
 File: pics/emitter.png Graphic file (type png)
 <use pics/emitter.png>
 Package luatex.def Info: pics/emitter.png  used on input line 130.
@@ -2146,7 +2146,7 @@ Package luatex.def Info: logos/tu.pdf  used on input line 130.
  [6
 
 <./pics/emitter.png>]
-<pics/quenching.png, id=120, 496.10344pt x 205.5178pt>
+<pics/quenching.png, id=122, 496.10344pt x 205.5178pt>
 File: pics/quenching.png Graphic file (type png)
 <use pics/quenching.png>
 Package luatex.def Info: pics/quenching.png  used on input line 139.
@@ -2162,12 +2162,12 @@ Package luatex.def Info: logos/tu.pdf  used on input line 139.
  [7
 
 <./pics/quenching.png>]
-<pics/FMNM.png, id=129, 1517.67pt x 501.875pt>
+<pics/FMNM.png, id=131, 1517.67pt x 501.875pt>
 File: pics/FMNM.png Graphic file (type png)
 <use pics/FMNM.png>
 Package luatex.def Info: pics/FMNM.png  used on input line 151.
 (luatex.def)             Requested size: 255.14903pt x 84.36803pt.
-<pics/FM-vsdouble.png, id=130, 459.96844pt x 331.2375pt>
+<pics/FM-vsdouble.png, id=132, 459.96844pt x 331.2375pt>
 File: pics/FM-vsdouble.png Graphic file (type png)
 <use pics/FM-vsdouble.png>
 Package luatex.def Info: pics/FM-vsdouble.png  used on input line 151.
@@ -2179,12 +2179,12 @@ Package luatex.def Info: logos/tu.pdf  used on input line 151.
  [8
 
 <./pics/FMNM.png><./pics/FM-vsdouble.png>]
-<pics/Spin_Hall.png, id=140, 1014.79124pt x 610.28pt>
+<pics/Spin_Hall.png, id=142, 1014.79124pt x 610.28pt>
 File: pics/Spin_Hall.png Graphic file (type png)
 <use pics/Spin_Hall.png>
 Package luatex.def Info: pics/Spin_Hall.png  used on input line 168.
 (luatex.def)             Requested size: 212.62204pt x 127.8646pt.
-<pics/inv_spin_hall.png, id=141, 1214.5375pt x 731.73375pt>
+<pics/inv_spin_hall.png, id=143, 1214.5375pt x 731.73375pt>
 File: pics/inv_spin_hall.png Graphic file (type png)
 <use pics/inv_spin_hall.png>
 Package luatex.def Info: pics/inv_spin_hall.png  used on input line 168.
@@ -2197,28 +2197,77 @@ Package luatex.def Info: logos/tu.pdf  used on input line 168.
 [9
 
 <./pics/Spin_Hall.png><./pics/inv_spin_hall.png>]
+<pics/trilayer.png, id=153, 773.89125pt x 520.94624pt>
+File: pics/trilayer.png Graphic file (type png)
+<use pics/trilayer.png>
+Package luatex.def Info: pics/trilayer.png  used on input line 179.
+(luatex.def)             Requested size: 212.62204pt x 143.1295pt.
+<pics/vergleich.png, id=154, 655.44875pt x 855.195pt>
+File: pics/vergleich.png Graphic file (type png)
+<use pics/vergleich.png>
+Package luatex.def Info: pics/vergleich.png  used on input line 179.
+(luatex.def)             Requested size: 212.62204pt x 277.41312pt.
+
+Overfull \vbox (73.49823pt too high) detected at line 179
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 176.
+Package luatex.def Info: logos/tu.pdf  used on input line 179.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [10
+[10
+
+<./pics/trilayer.png><./pics/vergleich.png>]
+<pics/Bfeld.png, id=164, 1066.7353pt x 851.43094pt>
+File: pics/Bfeld.png Graphic file (type png)
+<use pics/Bfeld.png>
+Package luatex.def Info: pics/Bfeld.png  used on input line 184.
+(luatex.def)             Requested size: 425.24408pt x 339.41008pt.
+
+Overfull \vbox (133.7914pt too high) detected at line 184
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 184.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[11
+
+<./pics/Bfeld.png>]
+<pics/broadband.png, id=174, 1058.95625pt x 439.6425pt>
+File: pics/broadband.png Graphic file (type png)
+<use pics/broadband.png>
+Package luatex.def Info: pics/broadband.png  used on input line 188.
+(luatex.def)             Requested size: 425.24408pt x 176.54485pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 188.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [12
+
+<./pics/broadband.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 197.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [13
 
 ]
 
 LaTeX Font Warning: Font shape `TU/FiraSansLight(0)/m/it' undefined
-(Font)              using `TU/FiraSansLight(0)/m/n' instead on input line 179.
+(Font)              using `TU/FiraSansLight(0)/m/n' instead on input line 200.
 
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 7.64058pt on input line 179.
+(Font)              scaled to size 7.64058pt on input line 200.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/sc' will be
-(Font)              scaled to size 7.64058pt on input line 179.
+(Font)              scaled to size 7.64058pt on input line 200.
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 7.58249pt on input line 179.
+(Font)              scaled to size 7.58249pt on input line 200.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 181.
+Package luatex.def Info: logos/tu.pdf  used on input line 202.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
-[11
+[14
 
 ]
 \tf@nav=\write6
@@ -2326,14 +2375,14 @@ Package logreq Info: Writing requests to 'slides.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42767 strings out of 477785
+ 42850 strings out of 477785
  125048,1977958 words of node,token memory allocated
  1971 words of node memory still in use:
    32 hlist, 8 vlist, 5 rule, 1 disc, 5 local_par, 49 glue, 12 kern, 16 penalty,
  40 glyph, 63 attribute, 82 glue_spec, 63 attribute_list, 3 write, 12 pdf_colors
 tack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:2,2:879,3:245,4:292,5:637,6:60,7:4106,8:46,9:337,10:22,11:107
- 61748 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:879,3:245,4:292,5:637,6:64,7:4106,8:46,9:337,10:22,11:107
+ 61782 multiletter control sequences out of 65536+600000
  87 fonts using 31525755 bytes
  128i,18n,144p,1306b,2057s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/max_pc/.local/texlive/2022/texmf-dist/fonts/opentype/public/fira/FiraMono
@@ -2341,10 +2390,10 @@ tack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
 firamath/FiraMath-Regular.otf></home/max_pc/.local/texlive/2022/texmf-dist/fonts
 /opentype/public/fira/FiraSans-Light.otf></home/max_pc/.local/texlive/2022/texmf
 -dist/fonts/opentype/public/fira/FiraSans-Medium.otf>
-Output written on slides.pdf (11 pages, 2126176 bytes).
+Output written on slides.pdf (14 pages, 2652133 bytes).
 
-PDF statistics: 243 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 131072)
- 88 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 277 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
 

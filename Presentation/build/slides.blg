@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'build/slides.blg'
-[53] biber:340> INFO - === Sat Jan 14, 2023, 12:23:27
-[65] Biber.pm:418> INFO - Reading 'build/slides.bcf'
+[52] biber:340> INFO - === Sat Jan 14, 2023, 13:49:38
+[64] Biber.pm:418> INFO - Reading 'build/slides.bcf'
 [108] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
 [117] Biber.pm:4383> INFO - Processing section 0
-[125] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
-[133] bibtex.pm:1713> INFO - LaTeX decoding ...
-[151] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[218] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[219] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[219] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[219] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[226] bbl.pm:654> INFO - Writing 'build/slides.bbl' with encoding 'UTF-8'
-[231] bbl.pm:757> INFO - Output to build/slides.bbl
+[135] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[144] bibtex.pm:1713> INFO - LaTeX decoding ...
+[163] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[253] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[253] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[254] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[278] bbl.pm:654> INFO - Writing 'build/slides.bbl' with encoding 'UTF-8'
+[283] bbl.pm:757> INFO - Output to build/slides.bbl

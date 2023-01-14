@@ -5,4 +5,5 @@
 \beamer@sectionintoc {2}{Introduction}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Common emitters}{5}{0}{2}
 \beamer@sectionintoc {3}{Inverse Spin Hall effect}{9}{0}{3}
-\beamer@sectionintoc {5}{References }{11}{0}{4}
+\beamer@sectionintoc {4}{Advantages}{11}{0}{4}
+\beamer@sectionintoc {6}{References }{14}{0}{5}
