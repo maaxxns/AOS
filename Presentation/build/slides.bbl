@@ -395,6 +395,83 @@
       \endverb
       \keyw{Mesoscale and Nanoscale Physics (cond-mat.mes-hall),FOS: Physical sciences,FOS: Physical sciences}
     \endentry
+    \entry{seifert2016efficient}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=9511d49be0dd2501de9ddc4fb82b717c}{%
+           family={Seifert},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fc2033f26ae6c288b39a90ccc69af9bb}{%
+           family={Jaiswal},
+           familyi={J\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=03b68f58917ee6b58c7b98b5e89604f2}{%
+           family={Martens},
+           familyi={M\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod}}}%
+        {{hash=4ed276864269938717666f5df13652ad}{%
+           family={Hannegan},
+           familyi={H\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4b7d5150083c0f2389dbe2e045f25427}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=16f520330b4fcf81763965a42b3e4061}{%
+           family={Maldonado},
+           familyi={M\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c6e7e7a54c54a498ab1b86f8bd49df3c}{%
+           family={Freimuth},
+           familyi={F\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=18921537490d195f069753d490a1c874}{%
+           family={Kronenberg},
+           familyi={K\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=43c96b09e948613d49f4507db500f210}{%
+           family={Henrizi},
+           familyi={H\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4f7d8540973b03c7631e06d7f777b9fd}{%
+           family={Radu},
+           familyi={R\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{405b57febc827daf0da41faa2c5229c3}
+      \strng{fullhash}{583f1adf81b502fb1b92bca64c2f68d7}
+      \strng{bibnamehash}{405b57febc827daf0da41faa2c5229c3}
+      \strng{authorbibnamehash}{405b57febc827daf0da41faa2c5229c3}
+      \strng{authornamehash}{405b57febc827daf0da41faa2c5229c3}
+      \strng{authorfullhash}{583f1adf81b502fb1b92bca64c2f68d7}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature photonics}
+      \field{number}{7}
+      \field{title}{Efficient metallic spintronic emitters of ultrabroadband terahertz radiation}
+      \field{volume}{10}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{483\bibrangedash 488}
+      \range{pages}{6}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -45,7 +45,7 @@
 }
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 
-\title{Spintronic emitters in the Terahertz Regime}
+\title{Spintronic emitters in the terahertz regime}
 \subtitle{Applied optical spectroscopy}
 \author[M.~Koch]{Max Koch}
 \institute[]{TU Dortmund \\  Fakultät Physik}
@@ -137,9 +137,9 @@
   \begin{center}
   \includegraphics[width=0.6\textwidth]{pics/quenching.png}
   \end{center}
-  \begin{equation}
+  \begin{equation*}
     E_\text{DM} \propto \dot{M}(t)
-  \end{equation}
+  \end{equation*}
 \end{frame}
 
 \begin{frame}{Stronger if we attach NM}
@@ -157,7 +157,8 @@
 \section{Inverse Spin Hall effect}
 \begin{frame}{Where does the current come frome?}
 \begin{center}
-Inverse Spin Hall effect!
+\Large Inverse Spin Hall effect!
+\normalsize
 \end{center}
 \begin{columns}
   \begin{column}{0.5\textwidth}
@@ -171,12 +172,65 @@ Inverse Spin Hall effect!
 \end{columns}
 \end{frame}
 
+\begin{frame}{In the emitter}
+  \begin{columns}
+    \begin{column}{.3\textwidth}
+      \Large Lets summarize:
+      \normalsize
+      \vspace{0.3in}
+      \begin{itemize}
+        \item FM with magnetization
+        \vspace{0.2in}
+        \item spin current $j_s$ through $\si{\femto\second}$-laser pulse
+        \vspace{0.2in}
+        \item spin current to charge current
+      \end{itemize}
+      \vspace{0.2in}
+      \begin{equation*}
+        j_c = γj_s
+      \end{equation*}
+      \begin{itemize}
+        \item charge current generates THz-Field
+      \end{itemize}
+    \end{column}
+    \begin{column}{.7\textwidth}
+      \begin{center}
+        \includegraphics[width=0.7\textwidth]{pics/emitter.png}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Setup}
+  \begin{center}
+    \begin{columns}
+      \begin{column}{0.3\textwidth}
+        \begin{itemize}
+          \item Just change emitter
+          \vspace{0.3in}
+          \item Apply B-Field
+          \vspace{0.3in}
+          \item Put $Si$-lens behind crystal
+        \end{itemize}
+      \end{column}
+      \begin{column}{.6\textwidth}
+        \begin{center}
+          \includegraphics[width=\textwidth]{pics/setup.png}
+        \end{center}
+      \end{column}
+    \end{columns}
+  \end{center}
+\end{frame}
+
 \begin{frame}{Two Layers are not the end}
   \begin{center}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \begin{center}
-        \includegraphics[width=.8\textwidth]{pics/trilayer.png}
+        \hspace{0.1in}
+        \includegraphics[width=.6\textwidth]{pics/trilayer.png}
+        \includegraphics[width=0.7\textwidth]{pics/aplitude.png}
+        \nocite{seifert2016efficient}
       \end{center}
     \end{column}
     \begin{column}{.5\textwidth}
