@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -37,7 +37,7 @@
       \strng{authornamehash}{3b4165a6865648d39fa503cecb54c956}
       \strng{authorfullhash}{3b4165a6865648d39fa503cecb54c956}
       \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Reports on Progress in Physics}
@@ -45,6 +45,7 @@
       \field{title}{Filling the THz gap—high power sources and applications}
       \field{volume}{69}
       \field{year}{2005}
+      \true{nocite}
       \field{pages}{301}
       \range{pages}{1}
     \endentry
@@ -78,7 +79,7 @@
       \strng{authornamehash}{dfac7c166e0ab960e377c163f6669b1d}
       \strng{authorfullhash}{682de45316165bf3793e8213ca89a773}
       \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{New advances in different technologies have made the previously unused terahertz frequency band accessible for imaging systems. The ‘terahertz gap’ has a frequency ranges from ∼0.3 THz to ∼10 THz in the electromagnetic spectrum which in between microwave and infrared. The terahertz radiations are invisible to naked eye & in comparison with X-ray they are intrinsically safe, non-destructive and non-invasive. This is such a new field that researchers around the world race to build the first practical system. It resolves many of the questions left unanswered by complementary techniques, such as optical imaging, Raman and infrared. Terahertz spectroscopy has number of applications run from detecting defects in tablet coating, product inspection (industry), spectroscopy (chemistry, astronomy), material characterization (physics), weapons concealed under clothing (airports), detection of cancer and caries. In the pharmaceutical industries it enables nondestructive, internal, chemical analysis of tablets, capsules and other dosage forms. This paper tries therefore not only to provide a brief overview over the imaging technology, but also over the whole range of current systems and research in terahertz technology.}
@@ -88,6 +89,7 @@
       \field{title}{Terahertz technology and its applications}
       \field{volume}{5}
       \field{year}{2013}
+      \true{nocite}
       \field{pages}{157\bibrangedash 163}
       \range{pages}{7}
       \verb{doi}
@@ -127,7 +129,7 @@
       \strng{authornamehash}{e70c94e5adfbdef71fd33f64ee3dcd6c}
       \strng{authorfullhash}{f966dcff637c0fb0077c5ba37ec99dce}
       \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The reflection spectrum of the explosive RDX was acquired from a diffuse reflection measurement using a THz time-domain spectroscopy system in combination with a diffuse reflectance accessory. By applying the Kramers-Kronig transform to the reflection spectrum, the absorption spectrum (0.2--1.8 THz) was obtained. It agrees with the result from a transmission measurement and distinguishes RDX from other materials. The effect of the reference spectrum was examined by using both a Teflon pellet and a copper plate as references. The strong absorption of RDX at 0.82 THz allowed it to be identified by the diffuse reflection measurement even when the RDX sample was covered with certain optically opaque materials. Our investigation demonstrates that THz technique is capable of detecting and identifying hidden RDX-related explosives in a diffuse reflection mode, which is crucial for the standoff detection in the real world applications.}
@@ -136,6 +138,7 @@
       \field{title}{Detection and identification of explosive RDX by THz diffuse reflection spectroscopy}
       \field{volume}{14}
       \field{year}{2006}
+      \true{nocite}
       \field{pages}{415\bibrangedash 423}
       \range{pages}{9}
       \verb{doi}
@@ -180,7 +183,7 @@
       \strng{authornamehash}{80d879b39024aaf89f7fb7e513ccff7f}
       \strng{authorfullhash}{5d2116b143b2adee9397be2ececb0e1c}
       \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Communications Magazine}
@@ -188,6 +191,7 @@
       \field{title}{THz radio communication: Link budget analysis toward 6G}
       \field{volume}{58}
       \field{year}{2020}
+      \true{nocite}
       \field{pages}{22\bibrangedash 27}
       \range{pages}{6}
     \endentry
@@ -196,7 +200,7 @@
       \true{morelabelname}
       \name{author}{10}{}{%
         {{hash=3724930802657619d8154aaa9e47c204}{%
-           family={Olejnı́k},
+           family={Olejn{ı́}k},
            familyi={O\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
@@ -206,14 +210,14 @@
            given={T.},
            giveni={T\bibinitperiod}}}%
         {{hash=84bee81c073819475b1a2e4a117c7958}{%
-           family={Kašpar},
+           family={Ka{š}par},
            familyi={K\bibinitperiod},
-           given={Zdeněk},
+           given={Zden{ě}k},
            giveni={Z\bibinitperiod}}}%
         {{hash=79912fd3e1c65e0c304457fff3db19b9}{%
-           family={Novák},
+           family={Nov{á}k},
            familyi={N\bibinitperiod},
-           given={Vı́t},
+           given={V{ı́}t},
            giveni={V\bibinitperiod}}}%
         {{hash=27babb3477e34d814bcc5cef722c2f48}{%
            family={Wadley},
@@ -236,7 +240,7 @@
            given={Pietro},
            giveni={P\bibinitperiod}}}%
         {{hash=72413f864f1799c6058c08f44bfa213b}{%
-           family={Němec},
+           family={N{ě}mec},
            familyi={N\bibinitperiod},
            given={Petr},
            giveni={P\bibinitperiod}}}%
@@ -256,7 +260,7 @@
       \strng{authornamehash}{de2e9e78b446aab0cf2f7e86b85ee16b}
       \strng{authorfullhash}{eed08ea7754926b96445ff68a3f9ca78}
       \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science advances}
@@ -264,6 +268,7 @@
       \field{title}{Terahertz electrical writing speed in an antiferromagnetic memory}
       \field{volume}{4}
       \field{year}{2018}
+      \true{nocite}
       \field{pages}{eaar3566}
       \range{pages}{-1}
     \endentry
@@ -290,12 +295,13 @@
       \strng{authornamehash}{c734ef32c6b85879ef27bc30facb90bf}
       \strng{authorfullhash}{c734ef32c6b85879ef27bc30facb90bf}
       \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Terahertz Spectroscopy}
       \field{title}{Nonlinear Optical Techniques for Terahertz Pulse Generation and Detection—Optical Rectication and Electrooptic Sampling}
       \field{year}{2017}
+      \true{nocite}
       \field{pages}{59\bibrangedash 90}
       \range{pages}{32}
     \endentry
@@ -372,11 +378,12 @@
       \strng{authornamehash}{a3d3b30f3bb000b007638b8433169ce2}
       \strng{authorfullhash}{493d228fa2a27892e966383b8a935d79}
       \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Laser-induced terahertz spin transport in magnetic nanostructures arises from the same force as ultrafast demagnetization}
       \field{year}{2021}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/ARXIV.2103.11710
       \endverb

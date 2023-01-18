@@ -1,3 +1,4 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \selectlanguage *{english}
 \beamer@sectionintoc {1}{Recap}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{The spectrum}{3}{0}{1}
