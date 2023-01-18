@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'build/slides.blg'
-[75] biber:322> INFO - === Sa Jan 14, 2023, 18:31:32
-[90] Biber.pm:415> INFO - Reading 'build/slides.bcf'
-[162] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
-[177] Biber.pm:4256> INFO - Processing section 0
-[178] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[178] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[189] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[190] bibtex.pm:1653> INFO - LaTeX decoding ...
-[213] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[304] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[304] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[304] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[304] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[313] bbl.pm:652> INFO - Writing 'build/slides.bbl' with encoding 'UTF-8'
-[323] bbl.pm:755> INFO - Output to build/slides.bbl
+[81] biber:322> INFO - === Mi Jan 18, 2023, 13:33:27
+[96] Biber.pm:415> INFO - Reading 'build/slides.bcf'
+[177] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
+[191] Biber.pm:4256> INFO - Processing section 0
+[191] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[191] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[205] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[207] bibtex.pm:1653> INFO - LaTeX decoding ...
+[230] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[319] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[319] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[328] bbl.pm:652> INFO - Writing 'build/slides.bbl' with encoding 'UTF-8'
+[338] bbl.pm:755> INFO - Output to build/slides.bbl

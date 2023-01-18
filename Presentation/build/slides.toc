@@ -7,4 +7,7 @@
 \beamer@subsectionintoc {2}{1}{Common emitters}{5}{0}{2}
 \beamer@sectionintoc {3}{Inverse Spin Hall effect}{9}{0}{3}
 \beamer@sectionintoc {4}{Advantages}{11}{0}{4}
-\beamer@sectionintoc {6}{References }{14}{0}{5}
+\beamer@subsectionintoc {4}{1}{Polarization}{11}{0}{4}
+\beamer@subsectionintoc {4}{2}{Broadband}{12}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{13}{0}{5}
+\beamer@sectionintoc {7}{References }{15}{0}{6}
