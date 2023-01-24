@@ -57,7 +57,13 @@
 \maketitle
 
 \begin{frame}{Outline}
-  \tableofcontents
+  \begin{columns}
+    \begin{column}{.2\textwidth}
+    \end{column}
+    \begin{column}{.8\textwidth}
+      \tableofcontents
+    \end{column}
+  \end{columns}
 \end{frame}
 
 
@@ -128,54 +134,79 @@
       \end{itemize}
     \end{column}
     \begin{column}{.6\textwidth}
+      \begin{figure}
       \includegraphics[width=\textwidth]{pics/emitter.png}
+        \caption{\textcolor{tugreen}{THz spintronic emitters} from E. Th. Papaioannou, Nanophotonics, (2005) .}
+        \nocite{gruytersbook}
+      \end{figure}
     \end{column}
   \end{columns}
 \end{frame}
 
 \begin{frame}{How does it work?}
   \begin{center}
-  \includegraphics[width=0.6\textwidth]{pics/quenching.png}
+    \begin{figure}
+    \caption{\textcolor{tugreen}{How and why do Spintronic Terahertz Emitters work?} from T. S. Seifert, THz group Berlin}
+    \vspace{0.3in}
+    \includegraphics[width=0.6\textwidth]{pics/quenching.png}
+    \end{figure}
   \end{center}
   \begin{equation*}
     E_\text{DM} \propto \dot{M}(t)
   \end{equation*}
+  \begin{center}
+    \Large Change in magnetization \rightarrow electric field
+  \end{center}
 \end{frame}
 
-\begin{frame}{Stronger if we attach NM}
+\begin{frame}{But we need more fieldstrength}
   \begin{columns}
     \begin{column}{0.6\textwidth}
-    \includegraphics[width=\textwidth]{pics/FMNM.png}
-    \nocite{arxiv}
+      \begin{figure}
+      \includegraphics[width=\textwidth]{pics/FMNM.png}
+      \nocite{arxiv}
+      \end{figure}
     \end{column}
     \begin{column}{0.4\textwidth}
       \includegraphics[width=\textwidth]{pics/FM-vsdouble.png}
     \end{column}
   \end{columns}
+  \vspace{0.3in}
+  \small\textcolor{tugreen}{Laser-induced terahertz spin transport in magnetic nanostructures arises from the same force as ultrafast demagnetization} from R. Rouzegar, L. Brandt et. al., arXiv.
+  \vspace{0.3in}
+  \begin{center}
+    \Large Stronger if we attach \textbf{NM}-layer
+  \end{center}
 \end{frame}
 
 \section{Inverse Spin Hall effect}
 \begin{frame}{Where does the current come frome?}
 \begin{center}
-\Large Inverse Spin Hall effect!
 \normalsize
 \end{center}
 \begin{columns}
   \begin{column}{0.5\textwidth}
   Spin Hall effect
-  \includegraphics[width=\textwidth]{pics/Spin_Hall.png}
+  \includegraphics[width=0.8\textwidth]{pics/Spin_Hall.png}
   \end{column}
   \begin{column}{0.5\textwidth}
     Inverse Spin Hall effect
-    \includegraphics[width=\textwidth]{pics/inv_spin_hall.png}
+    \includegraphics[width=.8\textwidth]{pics/inv_spin_hall.png}
   \end{column}
 \end{columns}
+\vspace{.2in}
+\small{\textcolor{tugreen}{How and why do Spintronic Terahertz Emitters work?} from T. S. Seifert, THz group Berlin}
+\vspace{0.2in}
+\begin{center}
+  \Large Inverse Spin Hall effect generates current
+\end{center}
 \end{frame}
 
-\begin{frame}{In the emitter}
+\section{Summary}
+\begin{frame}{Summary}
   \begin{columns}
     \begin{column}{.3\textwidth}
-      \Large Lets summarize:
+      \Large An overlook:
       \normalsize
       \vspace{0.3in}
       \begin{itemize}
@@ -215,13 +246,17 @@
       \end{column}
       \begin{column}{.6\textwidth}
         \begin{center}
+          \begin{figure}
           \includegraphics[width=\textwidth]{pics/setup.png}
+          \caption{\textcolor{tugreen}{THz spintronic emitters} from E. Th. Papaioannou, Nanophotonics, (2005) .}
+          \end{figure}
         \end{center}
       \end{column}
     \end{columns}
   \end{center}
 \end{frame}
 
+\section{Application}
 \begin{frame}{Two Layers are not the end}
   \begin{center}
   \begin{columns}
@@ -235,16 +270,19 @@
     \end{column}
     \begin{column}{.5\textwidth}
       \begin{center}
+        \small\textcolor{tugreen}{Efficient metallic spintronic emitters of ultrabroadband terahertz radiation} from T. Seifert, S. Jaiswal et. al., Nat. Photon, (2016).
+        \vspace{0.2in}
         \includegraphics[width=.6\textwidth]{pics/vergleich.png}
       \end{center}
     \end{column}
   \end{columns}
+  \vspace{0.3in}
 \end{center}
 \end{frame}
 
 \section{Advantages}
+\subsection{Polarization}
 \begin{frame}{Polarization}
-  \subsection{Polarization}
   \begin{columns}
     \begin{column}{0.3\textwidth}
     \begin{itemize}
@@ -252,19 +290,22 @@
       \vspace{0.3in}
       \item No filter needed
       \vspace{0.3in}
-      \item $\rightarrow$ Easy change of THz-Field Polarization
+      \item Easy change of THz-Field Polarization
     \end{itemize}
     \end{column}
   \begin{column}{.7\textwidth}
   \begin{center}
-    \includegraphics[width=0.8\textwidth]{pics/Bfeld.png}
+    \includegraphics[width=0.7\textwidth]{pics/Bfeld.png}
   \end{center}
+    \vspace{0.2in}
+    \hspace{0.2in}
+    \small{\textcolor{tugreen}{THz spintronic emitters} from E. Th. Papaioannou, Nanophotonics, (2005) .}
   \end{column}
   \end{columns}
 \end{frame}
 
+\subsection{Broadband}
 \begin{frame}{Broadband}
-  \subsection{Broadband}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -274,6 +315,8 @@
       \end{itemize}
     \end{column}
     \begin{column}{.7\textwidth}
+      \small\textcolor{tugreen}{Efficient metallic spintronic emitters of ultrabroadband terahertz radiation} from T. Seifert, S. Jaiswal et. al., Nat. Photon, (2016).
+      \vspace{0.1in}
       \begin{center}
       \includegraphics[width=0.5\textwidth]{pics/broadband_comnpar.png} 
       \includegraphics[width=0.7\textwidth]{pics/broadband.png}
@@ -282,7 +325,7 @@
   \end{columns}
 \end{frame}
 
-\section{Conclusion}
+\section*{Conclusion}
 \begin{frame}{Conclusion}
 \begin{columns}
 \begin{column}{0.5\textwidth}

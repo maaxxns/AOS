@@ -107,9 +107,9 @@
       leftskip=\beamer@leftmargin,
     ]{author in head/foot}%
       {\usebeamerfont{author in head/foot}\insertshortauthor}%
-      \ifx\beamer@shortdate\empty\else%
-      ~|~{\usebeamerfont{date in head/foot}\insertshortdate}%
-      \fi%
+      %\ifx\beamer@shortdate\empty\else%
+      %~|~{\usebeamerfont{date in head/foot}\insertshortdate}%
+      %\fi%
     \end{beamercolorbox}%
     \begin{beamercolorbox}[
       wd=\footercenterwidth,
@@ -213,6 +213,8 @@
 \setbeamerfont{itemize/enumerate body}{size=\normalfont}
 \setbeamerfont{itemize/enumerate subbody}{size=\normalfont}
 \setbeamerfont{itemize/enumerate subsubbody}{size=\normalfont}
+\setbeamerfont{caption/figure subsubbody}{size=\small}
+
 
 \setbeamerfont{block title}{series=\bfseries}
 \setbeamerfont{section in toc}{series=\bfseries}
