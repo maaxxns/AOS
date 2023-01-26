@@ -887,8 +887,16 @@ INPUT ./pics/broadband.png
 INPUT ./pics/broadband.png
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
+INPUT ./pics/advantage.png
+INPUT ./pics/advantage.png
+INPUT ./pics/advantage.png
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
+INPUT ./pics/wavelength.png
+INPUT ./pics/wavelength.png
+INPUT ./pics/wavelength.png
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 OUTPUT /home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua

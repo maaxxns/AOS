@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/slides"] 1674579826 "build/slides.bcf" "build/slides.bbl" "build/slides" 1674579895
-  "build/slides.bcf" 1674579895 107185 6f2d2516b0919bbf602b6264d86e3103 "lualatex"
+["biber build/slides"] 1674579826 "build/slides.bcf" "build/slides.bbl" "build/slides" 1674754957
+  "build/slides.bcf" 1674754957 107185 6f2d2516b0919bbf602b6264d86e3103 "lualatex"
   "references.bib" 1674065926 8222 c06739308fd7d93ebb45b6523c8df2d4 ""
   (generated)
   "build/slides.bbl"
   "build/slides.blg"
-["lualatex"] 1674579887 "slides.tex" "build/slides.pdf" "slides" 1674579895
+["lualatex"] 1674754949 "slides.tex" "build/slides.pdf" "slides" 1674754957
   "/etc/fonts/conf.d/10-antialias.conf" 1586167782 225 3629dcc380ac8c5b0306febc33b5667b ""
   "/etc/fonts/conf.d/10-hinting-slight.conf" 1586167782 696 690acea9572bf68b0ef975636002e4f3 ""
   "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf" 1586167782 2228 7bf8b372085774e6cbdae99235624440 ""
@@ -354,16 +354,16 @@
   "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1658411646 127969 d48bf8ab229be7b2aa686404a7366fdd ""
   "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc" 1656759394 128113 d7e74ff7d081b39d714e0dca23d859fa ""
   "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmsans9-regular.luc" 1659544769 128314 a81d6b9e67cacdb0fe8be09e030f9be8 ""
-  "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1674579895 6244 c527f457cdd6b8ab30e9fb5d5a0ed66b "lualatex"
+  "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1674754957 6244 c527f457cdd6b8ab30e9fb5d5a0ed66b "lualatex"
   "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1652613767 268232 3ea981c57b264d531b3b9afc96274aee ""
   "/home/max_pc/.local/texlive/2022/texmf-var/tex/generic/config/language.dat.lua" 1649670796 17745 da2a4905747fa565cbc799b5da5eef4b ""
   "/home/max_pc/.local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1649670856 4558719 e2a669db2348bad783037cdfcf62cb56 ""
   "beamerthemetudo.sty" 1674577159 6892 a34edbd7bba2f57bcad64c27d47c0bbf ""
-  "build/slides.aux" 1674579895 11930 6687ba8fcd4b14ac80f7d799a746ba56 "lualatex"
+  "build/slides.aux" 1674754957 12625 ba921d90c5019a8a9e22f160fc44d3d2 "lualatex"
   "build/slides.bbl" 1674579827 21559 2f6dbf33cde4305acd8afa8692c3d56c "biber build/slides"
-  "build/slides.nav" 1674579895 3827 f58bb014b6b9811fa0ed8f42b644dbfa "lualatex"
-  "build/slides.run.xml" 1674579895 2386 29543cbd3e7d4477531ac46570658d5f "lualatex"
-  "build/slides.toc" 1674579895 643 f22e099c7c85c6e97155b2dba1704b95 "lualatex"
+  "build/slides.nav" 1674754957 4070 3b359dd4a7c217bfa8b1e75204c3e7e8 "lualatex"
+  "build/slides.run.xml" 1674754957 2386 29543cbd3e7d4477531ac46570658d5f "lualatex"
+  "build/slides.toc" 1674754957 643 65d0f29a5943d2b0df93a3d05c12ea57 "lualatex"
   "images/2_11_30_20normalX.pdf" 1659544097 24031 1b177234f014c60c461f82f8dac15454 ""
   "images/Aufbau.pdf" 1659544097 32042 4842770d9ae10db2cf87923e7869156b ""
   "images/spectrum.png" 1659544097 305052 db8fea221271b259ed32827a62c12c11 ""
@@ -372,6 +372,7 @@
   "pics/FM-vsdouble.png" 1673627520 111608 0657ababbccb834f57cb52883aac70e3 ""
   "pics/FMNM.png" 1674575507 258255 b56650571ce6e9d9f866a5f0a5801f35 ""
   "pics/Spin_Hall.png" 1674575568 109557 5be3933e9bbc787350c45b5e8dfb5607 ""
+  "pics/advantage.png" 1674754052 616172 6c142cd9594af6f7e7f39ee57d56af30 ""
   "pics/aplitude.png" 1674065926 93892 741aabfb58819b04fe05629684273ad0 ""
   "pics/broadband.png" 1674578357 42236 41fb82915fc41770040f4a8d4a02fa33 ""
   "pics/broadband_comnpar.png" 1674065926 99857 bcd7b8cd15164b1d50afd7a37b6ad7b8 ""
@@ -381,7 +382,8 @@
   "pics/setup.png" 1674575587 422064 7255e0befceff703aa9be193bd277301 ""
   "pics/trilayer.png" 1673700404 57867 008791f15dcb068a8915e3900bf4daec ""
   "pics/vergleich.png" 1674575610 57289 28d514a6996614f53567df49872e6e03 ""
-  "slides.tex" 1674579885 10388 41b326aa92274c238f467df7b0d0fa07 ""
+  "pics/wavelength.png" 1674754549 380078 a82be3c9d1c60d6c55cb09e2cb70630a ""
+  "slides.tex" 1674754936 10974 7332b74f4218e7b7e4bce0d9cec1183b ""
   (generated)
   "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua"
   "/home/max_pc/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc"
